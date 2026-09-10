@@ -146,7 +146,11 @@ function authShell(message=''){
       if(result.error) throw result.error;
       if(mode==='signup' && !result.data.session){$('#authMessage').textContent='注册成功。请先打开邮箱中的确认邮件，再回来登录。';}
       else await afterLogin(result.data.session);
-    }catch(e){$('#authMessage').textContent=e.message||'操作失败，请重试。';}
+    }catch(e){
+      console.error('Auth error:', e);
+      const msg=e?.message || e?.error_description || '操作失败，请重试。';
+      $('#authMessage').textContent = msg === 'Load failed' ? '连接 Supabase 失败。请检查手机网络后重试；如果电脑能登录，这通常不是账号或密码问题。' : msg;
+    }
     finally{$('#authSubmit').disabled=false}
   };
 }
@@ -214,7 +218,7 @@ async function boot(){
     return;
   }
   try{
-    SB=window.supabase.createClient(window.SUPABASE_CONFIG.url,window.SUPABASE_CONFIG.publishableKey);
+    SB=window.supabase.createClient(window.SUPABASE_CONFIG.url,window.SUPABASE_CONFIG.publishableKey,{auth:{persistSession:true,autoRefreshToken:true,detectSessionInUrl:true,storage:window.localStorage,flowType:'pkce'}});
     const {data,error}=await SB.auth.getSession(); if(error) throw error;
     DB=await Promise.resolve(EMBEDDED_DATA);
     if(data.session){await afterLogin(data.session)} else authShell();
