@@ -37,7 +37,67 @@ function relationOptions(e,target){let pool=DB.entries.filter(x=>x.id!==e.id&&x.
 function prefixOptions(e){let pool=DB.entries.filter(x=>x.id!==e.id&&x.module_eligibility.same_root_prefix).map(x=>x.headword);return shuffle([e.headword,...pool.slice(0,3)])}
 function contextFor(e){const m=meaning(e); return `根据原书释义“${m}”，判断句中最合适的词形。题目只考察本词与同根/前缀词之间的区别。`}
 function shuffle(a){return [...a].sort(()=>Math.random()-.5)}
-function answer(raw,unknown){const e=session.items[session.idx];let ok=unknown?false:grade(e,raw); if(session.m.includes('synonym')||session.m==='same_root_prefix'){const opts=document.querySelectorAll('.option'); const picked=session.selected==null?'':opts[session.selected]?.textContent.trim(); ok=grade(e,picked);raw=picked} record(e,raw,ok,unknown); if(!ok)session.errors.push(e.id); session.idx++; session.selected=null; renderQuestion()}
+function answer(raw,unknown){
+ const e=session.items[session.idx];
+ // German -> Chinese is semantic, not string-exact. After the user enters a meaning,
+ // reveal the source meaning and let the learner judge whether the meaning is correct.
+ if(session.m==='meaning' && !unknown && (session.phase==='first'||session.phase==='retest')){
+   showMeaningEvaluation(e,raw); return;
+ }
+ let ok=unknown?false:grade(e,raw);
+ if(session.m.includes('synonym')||session.m==='same_root_prefix'){
+   const opts=document.querySelectorAll('.option'); const picked=session.selected==null?'':opts[session.selected]?.textContent.trim(); ok=grade(e,picked);raw=picked
+ }
+ record(e,raw,ok,unknown);
+ if(!ok)session.errors.push(e.id);
+ showAnswerFeedback(e, raw, ok, unknown);
+}
+
+function correctAnswerFor(e){
+  if(session.m==='meaning') return session.round===2 ? e.headword : meaning(e);
+  if(session.m==='irregular_verb') return forms(e);
+  if(session.m==='synonym_near_synonym_antonym'){
+    return (e.source.exact_source_text.match(/(?:同义词|近义词|反义词)\s*:\s*([^\n]+)/)||[])[1]||'原书关系未结构化';
+  }
+  if(session.m==='same_root_prefix') return e.headword;
+  return meaning(e);
+}
+function showAnswerFeedback(e,raw,ok,unknown){
+  const answer=correctAnswerFor(e);
+  const title=unknown?'你还不知道':ok?'回答正确':'你答错了';
+  const desc=unknown?'没关系，先记住正确答案。':ok?'这一题判断正确。':'这道题没有答对，正确答案如下。';
+  const user=unknown?'我不知道':(raw||'（未填写）');
+  const card=document.querySelector('.card');
+  card.innerHTML=`<div class=\"feedback ${ok?'feedback-ok':'feedback-wrong'}\">
+    <div class=\"feedback-mark\">${ok?'✓':unknown?'?':'×'}</div>
+    <div class=\"feedback-title\">${esc(title)}</div>
+    <p class=\"feedback-desc\">${esc(desc)}</p>
+    ${!ok||unknown?`<div class=\"feedback-answer\"><span>正确答案</span><strong>${esc(answer)}</strong></div>`:''}
+    ${!ok||unknown?`<div class=\"feedback-your\"><span>你的答案</span><div>${esc(user)}</div></div>`:''}
+    <button class=\"primary feedback-next\" id=\"feedbackNext\">${session.idx+1<session.items.length?'下一题':'查看结果'}</button>
+  </div>`;
+  document.querySelector('#feedbackNext').onclick=()=>{session.idx++;session.selected=null;renderQuestion()};
+}
+function showMeaningEvaluation(e,raw){
+ const card=document.querySelector('.card');
+ card.innerHTML=`<div class="eyebrow">请按“意思”判断，而不是按原书措辞判断</div>
+   <div class="word">${esc(e.headword)}</div>
+   <div class="meaning-eval">
+     <h3>你的答案</h3><div class="your-answer">${esc(raw)}</div>
+     <div class="standard"><b>原书释义</b><br>${esc(meaning(e))}</div>
+     <div class="eval-buttons">
+       <button class="ok" id="meaningCorrect">10/10 · 意思正确</button>
+       <button class="partial" id="meaningPartial">7/10 · 基本正确但不完整</button>
+       <button class="wrong" id="meaningWrong">0/10 · 意思错误</button>
+     </div>
+     <div class="eval-note">例如“对……做贡献”和“为……作出贡献”属于意思正确；不要求和书上的中文表述逐字一致。只有你确认意思正确，才算本轮掌握。</div>
+   </div>`;
+ document.querySelector('#meaningCorrect').onclick=()=>finishMeaningEvaluation(e,raw,true);
+ document.querySelector('#meaningPartial').onclick=()=>finishMeaningEvaluation(e,raw,false);
+ document.querySelector('#meaningWrong').onclick=()=>finishMeaningEvaluation(e,raw,false);
+}
+function finishMeaningEvaluation(e,raw,ok){record(e,raw,ok,false);if(!ok)session.errors.push(e.id);session.idx++;session.selected=null;renderQuestion()}
+
 function grade(e,a){if(session.m==='meaning'){const target=session.phase==='reinforce'?e.headword:session.round===3?meaning(e):meaning(e); if(session.round===2)return clean(a)===clean(e.headword);return clean(a)===clean(target)||clean(target).includes(clean(a))&&clean(a).length>2} if(session.m==='irregular_verb')return clean(a).replace(/[，,；;]/g,' ' )===clean(forms(e)).replace(/[，,；;]/g,' '); if(session.m==='synonym_near_synonym_antonym'){const t=(e.source.exact_source_text.match(/(?:同义词|近义词|反义词)\s*:\s*([^\n]+)/)||[])[1]||'';return clean(a)===clean(t)} return clean(a)===clean(e.headword)}
 function record(e,a,ok,unknown){const now=new Date().toISOString();state.lastSeen[e.id]=now;if(!ok){state.history.push({id:crypto.randomUUID(),item_id:e.id,stage:session.stage,printed_page:e.source.printed_page,module:session.m,date:now,actual_answer:a,standard_answer:session.m==='meaning'?(session.round===2?e.headword:meaning(e)):session.m==='irregular_verb'?forms(e):((e.source.exact_source_text.match(/(?:同义词|近义词|反义词)\s*:\s*([^\n]+)/)||[])[1]||e.headword),error_count:1,status:'open',first_test_unknown:unknown});if(unknown)state.unknown.push({item_id:e.id,stage:session.stage,module:session.m,date:now})}save()}
 function finish(){const k=key(session.stage,session.m); if(session.phase==='first'){state.modules[k]={status:session.errors.length?'warn':'available',pending:[...new Set(session.errors)],last_round:1};save(); if(session.errors.length){session.phase='reinforce';session.round=2;session.items=[...new Set(session.errors)].map(id=>session.all.find(e=>e.id===id)).filter(Boolean);session.idx=0;session.errors=[];summary('第一轮完成','以下项目需要强化。第一轮“不知道”和答错都已分别记录。','继续强化')}else{session.phase='retest';session.round=3;session.items=[...session.all];session.idx=0;session.errors=[];summary('第一轮完成','没有错误，直接进入当前 Module 的全量重测。','开始全量重测')}}else if(session.phase==='reinforce'){if(session.errors.length){state.modules[k]={status:'warn',pending:[...new Set(session.errors)],last_round:2};save();session.items=[...new Set(session.errors)].map(id=>session.all.find(e=>e.id===id)).filter(Boolean);session.idx=0;session.errors=[];summary('强化仍有错误','必须继续强化后再进行全量重测。','继续强化')}else{state.modules[k]={status:'available',pending:[],last_round:2};save();session.phase='retest';session.round=3;session.items=[...session.all];session.idx=0;session.errors=[];summary('强化完成','现在重新测试当前 Module 的全部项目。','开始全量重测')}}else if(session.phase==='retest'){if(session.errors.length){state.modules[k]={status:'warn',pending:[...new Set(session.errors)],last_round:3};save();session.phase='reinforce';session.round=2;session.items=[...new Set(session.errors)].map(id=>session.all.find(e=>e.id===id)).filter(Boolean);session.idx=0;session.errors=[];summary('全量重测未通过','即使只有一个错误，也必须强化后再次完整测试。','继续强化')}else{state.modules[k]={status:'done',pending:[],last_round:3};save();summary('Module 完成','最近一次完整测试达到 100%。','返回学习路径')}}else{renderHome()}}
