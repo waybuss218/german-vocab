@@ -105,4 +105,124 @@ function summary(title,text,action){$('#app').innerHTML=`<div class="summary"><d
 function renderErrors(){let rows=[...state.history].sort((a,b)=>a.printed_page-b.printed_page||a.date.localeCompare(b.date));layout('','永久历史记录 · 不会因为后来答对而删除','errors',`<section class="panel"><div class="panel-head"><div><h2>错误本</h2><p>${rows.length} 条历史错误 · First-test Unknown ${state.unknown.length} 条</p></div></div>${rows.length?`<div class="table">${rows.map(r=>{const e=DB.entries.find(x=>x.id===r.item_id);return `<div class="row"><div><b>${esc(e?.headword||r.item_id)}</b><small>P.${r.printed_page} · Stage ${r.stage} · ${esc(MODULES.find(m=>m.id===r.module)?.short||r.module)}</small></div><div><span class="badge">${r.first_test_unknown?'首次未知':'答错'}</span><div class="answer">${esc(r.actual_answer||'我不知道')} → ${esc(r.standard_answer)}</div></div><time>${new Date(r.date).toLocaleString()}</time></div>`}).join('')}</div>`:'<div class="empty">还没有错误记录。</div>'}</section>`)}
 function renderReview(){let freq={};state.history.forEach(h=>freq[h.item_id]=(freq[h.item_id]||0)+1);let ids=Object.keys(freq).sort((a,b)=>freq[b]-freq[a]);let pool=ids.map(id=>DB.entries.find(e=>e.id===id)).filter(Boolean);layout('','从所有已学习内容建立全局复习池','review',`<section class="review-hero"><div class="kicker">GLOBAL REVIEW</div><h1>${pool.length} 个项目可进入长期复习</h1><p>当前优先覆盖历史错误次数较多的项目。后续可加入“最近错误 / 长期未复习 / 随机正确项”的权重。</p>${pool.length?'<button class="primary" id="reviewStart">开始复习</button>':'<div class="empty">完成一些学习后，这里会自动形成全局复习池。</div>'}</section>`);$('#reviewStart')?.addEventListener('click',()=>{session={stage:0,m:'meaning',all:pool,items:shuffle(pool),phase:'review',round:3,idx:0,errors:[],unknown:[],selected:null};renderQuestion()})}
 function showToast(t){let x=document.createElement('div');x.className='toast';x.textContent=t;document.body.appendChild(x);setTimeout(()=>x.remove(),2600)}
-Promise.resolve(EMBEDDED_DATA).then(d=>{DB=d;renderHome()}).catch(e=>$('#app').innerHTML=`<div class="summary"><div class="summary-card"><h1>数据加载失败</h1><p>${esc(e.message)}</p></div></div>`);
+/* ================= SUPABASE ACCOUNT + CLOUD SYNC ================= */
+let SB = null;
+let AUTH_SESSION = null;
+let cloudReady = false;
+let cloudSyncTimer = null;
+const LOCAL_STORE_VERSION = 'cloud-v1';
+
+function supabaseConfigured(){
+  return window.SUPABASE_CONFIG && window.SUPABASE_CONFIG.url &&
+    window.SUPABASE_CONFIG.publishableKey &&
+    !window.SUPABASE_CONFIG.publishableKey.includes('PASTE_YOUR_');
+}
+
+function authShell(message=''){
+  $('#app').innerHTML = `<div class="auth-screen">
+    <div class="auth-card">
+      <div class="kicker">DEUTSCH VOCAB</div>
+      <h1>登录你的学习账号</h1>
+      <p class="auth-sub">登录后，学习进度、错误本和长期复习记录会保存到云端。</p>
+      <div class="auth-tabs"><button class="auth-tab active" id="loginTab">登录</button><button class="auth-tab" id="signupTab">注册</button></div>
+      <label>邮箱</label><input id="authEmail" type="email" autocomplete="email" placeholder="你的邮箱">
+      <label>密码</label><input id="authPassword" type="password" autocomplete="current-password" placeholder="至少 6 位">
+      <button class="primary auth-submit" id="authSubmit">登录</button>
+      <div class="auth-message" id="authMessage">${esc(message)}</div>
+      <p class="auth-note">使用同一个账号登录，就可以在不同设备继续学习。</p>
+    </div>
+  </div>`;
+  let mode='login';
+  const tab=(m)=>{mode=m;$('#loginTab').classList.toggle('active',m==='login');$('#signupTab').classList.toggle('active',m==='signup');$('#authSubmit').textContent=m==='login'?'登录':'注册';$('#authPassword').autocomplete=m==='login'?'current-password':'new-password';$('#authMessage').textContent=''};
+  $('#loginTab').onclick=()=>tab('login'); $('#signupTab').onclick=()=>tab('signup');
+  $('#authSubmit').onclick=async()=>{
+    const email=$('#authEmail').value.trim(), password=$('#authPassword').value;
+    if(!email||password.length<6){$('#authMessage').textContent='请输入邮箱和至少 6 位密码。';return}
+    $('#authSubmit').disabled=true; $('#authMessage').textContent='处理中…';
+    try{
+      let result = mode==='login'
+        ? await SB.auth.signInWithPassword({email,password})
+        : await SB.auth.signUp({email,password,options:{emailRedirectTo:window.location.origin+window.location.pathname}});
+      if(result.error) throw result.error;
+      if(mode==='signup' && !result.data.session){$('#authMessage').textContent='注册成功。请先打开邮箱中的确认邮件，再回来登录。';}
+      else await afterLogin(result.data.session);
+    }catch(e){$('#authMessage').textContent=e.message||'操作失败，请重试。';}
+    finally{$('#authSubmit').disabled=false}
+  };
+}
+
+function userId(){return AUTH_SESSION?.user?.id || null}
+async function afterLogin(authSession){
+  AUTH_SESSION = authSession;
+  cloudReady = true;
+  await loadCloudState();
+  renderHome();
+}
+
+async function loadCloudState(){
+  const uid=userId(); if(!uid) return;
+  try{
+    const {data,error}=await SB.from('user_state').select('state').eq('user_id',uid).maybeSingle();
+    if(error) throw error;
+    const local=state;
+    if(data?.state){
+      // Merge rather than overwrite: preserves any local work that predates first login.
+      state={...blank(),...data.state,modules:{...local.modules,...(data.state.modules||{})},history:[...(data.state.history||[]),...(local.history||[])],unknown:[...(data.state.unknown||[]),...(local.unknown||[])]};
+      state.history=dedupeById(state.history); state.unknown=dedupeUnknown(state.unknown);
+    }
+    await saveCloud(true);
+  }catch(e){
+    console.warn('Cloud state load failed:',e);
+    showToast('云端同步暂时失败，仍保留本机记录。');
+  }
+}
+function dedupeById(a){const m=new Map();a.forEach(x=>m.set(x.id||crypto.randomUUID(),x));return [...m.values()]}
+function dedupeUnknown(a){const m=new Map();a.forEach(x=>m.set(`${x.item_id}:${x.stage}:${x.module}`,x));return [...m.values()]}
+async function saveCloud(immediate=false){
+  _localSave();
+  if(!SB||!cloudReady||!userId()) return;
+  clearTimeout(cloudSyncTimer);
+  const run=async()=>{
+    try{
+      const {error}=await SB.from('user_state').upsert({user_id:userId(),state,updated_at:new Date().toISOString()},{onConflict:'user_id'});
+      if(error) throw error;
+    }catch(e){console.warn('Cloud save failed:',e)}
+  };
+  if(immediate) await run(); else cloudSyncTimer=setTimeout(run,250);
+}
+
+// Replace the local save function with a cloud-aware version after login.
+const _localSave = save;
+save = function(){
+  _localSave();
+  if(cloudReady && userId()) saveCloud();
+};
+
+function accountNav(){
+  const email=AUTH_SESSION?.user?.email||'';
+  return `<div class="account"><span>${esc(email)}</span><button id="logoutBtn">退出登录</button></div>`;
+}
+const _oldLayout=layout;
+layout=function(title,sub,active,body){
+  $('#app').innerHTML=`<header><div><div class="brand">Deutsch Vocab</div><div class="sub">${esc(sub||'')}</div></div><div class="header-right">${nav(active)}${accountNav()}</div></header><main>${body}</main>`;
+  bindNav(); $('#logoutBtn')?.addEventListener('click',async()=>{await SB.auth.signOut();cloudReady=false;AUTH_SESSION=null;state=loadState();authShell()});
+};
+
+async function boot(){
+  if(!supabaseConfigured()){
+    await Promise.resolve(EMBEDDED_DATA).then(d=>{DB=d;authShell('还差最后一个配置：请把 Supabase Publishable key 填进 supabase-config.js。')});
+    return;
+  }
+  try{
+    SB=window.supabase.createClient(window.SUPABASE_CONFIG.url,window.SUPABASE_CONFIG.publishableKey);
+    const {data,error}=await SB.auth.getSession(); if(error) throw error;
+    DB=await Promise.resolve(EMBEDDED_DATA);
+    if(data.session){await afterLogin(data.session)} else authShell();
+    SB.auth.onAuthStateChange(async(_event,s)=>{
+      if(s && !userId()){await afterLogin(s)}
+    });
+  }catch(e){
+    $('#app').innerHTML=`<div class="summary"><div class="summary-card"><h1>连接失败</h1><p>${esc(e.message)}</p></div></div>`;
+  }
+}
+boot();
