@@ -1,6 +1,4 @@
-// Supabase public browser configuration.
-// Paste your Publishable key from Supabase > Settings > API Keys below.
 window.SUPABASE_CONFIG = {
   url: 'https://litsalynlkxvwenlapne.supabase.co',
-  publishableKey: 'PASTE_YOUR_SB_PUBLISHABLE_KEY_HERE'
+  publishableKey: 'sb_publishable_Ra2y-U7GbJYnLue8TYkuzw_JnbQYo5p'
 };
