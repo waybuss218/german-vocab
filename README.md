@@ -1,8 +1,14 @@
-# German Vocab · Supabase cloud version
+# 德福考前必备-词汇：账号与响应式修复版
 
-1. In Supabase SQL Editor, run `SUPABASE_MIGRATION.sql`.
-2. Open `supabase-config.js` and replace `PASTE_YOUR_SB_PUBLISHABLE_KEY_HERE` with your Supabase Publishable key (`sb_publishable_...`).
-3. Upload/replace `index.html`, `app.js`, `style.css`, and add `supabase-config.js` to the GitHub repository. `vocab.json` is unchanged.
-4. GitHub Pages then provides email/password registration and login. Learning state is synchronized to Supabase `user_state`.
+将 `app.js` 和 `style.css` 上传/替换 GitHub 仓库根目录中原来的同名文件即可。
 
-Never put an `sb_secret_...` key in this project.
+本版包含：
+- 登录/注册密码显示与隐藏眼睛按钮
+- 已注册邮箱提示“该邮箱已注册，请直接登录”
+- 忘记密码 → 邮件重置 → 设置新密码 → 返回登录
+- 邮箱验证成功后回到登录界面并显示“验证成功，请登录。”
+- 每个 Supabase 用户使用独立的本地学习状态，避免新邮箱继承旧邮箱的 localStorage
+- 云端 `user_state` 按当前 Supabase `user.id` 隔离
+- 桌面端/手机端响应式布局修复，标题不再被挤成两行
+
+注意：不要修改现有 Supabase 用户或删除现有 `user_state` 数据。本版不会主动清空云端数据。
