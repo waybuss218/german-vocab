@@ -38,7 +38,9 @@ function migrateState(s){
  s.unknown=s.unknown.map(u=>({...u,id:u.id||crypto.randomUUID()}));
  return s;
 }
-function save(){localStorage.setItem(STORE,JSON.stringify(state))}
+function save(){
+  localStorage.setItem(ACTIVE_STORE,JSON.stringify(state));
+}
 function key(stage,m){return `${stage}:${m}`}
 function entriesFor(stage,m){return (DB.entries||[]).filter(e=>e.source?.stage?.includes(stage)&&eligible(e,m))}
 function eligible(e,m){
@@ -88,6 +90,7 @@ function stats(stage,m){
  return {total:all.length,seen:[...seenIds].filter(id=>ids.has(id)).length,corrected:[...corrected].filter(id=>ids.has(id)).length,errors:uniqueErr.size};
 }
 function nav(active){return `<nav>${[['home','学习路径'],['errors','错误本'],['review','长期复习']].map(([id,n])=>`<button class="nav ${active===id?'active':''}" data-view="${id}">${n}${id==='errors'?` <b>${state.history.length}</b>`:''}</button>`).join('')}</nav>`}
+function accountNav(){const email=AUTH_SESSION?.user?.email||'';return `<div class="account"><span title="${esc(email)}">${esc(email||'当前账号')}</span><button id="logoutBtn" type="button">退出登录</button></div>`;}
 function layout(title,sub,active,body){$('#app').innerHTML=`<header><div><div class="brand">德福考前必备-词汇 复习</div></div><div class="header-right">${nav(active)}${accountNav()}</div></header><main>${body}</main>`;bindNav();$('#logoutBtn')?.addEventListener('click',logout)}
 async function logout(){const btn=$('#logoutBtn');if(btn)btn.disabled=true;try{if(cloudSyncTimer)clearTimeout(cloudSyncTimer);if(SB)await SB.auth.signOut();}catch(e){console.warn('Logout failed:',e);showToast('退出登录失败，请重试。');if(btn)btn.disabled=false;return}cloudReady=false;AUTH_SESSION=null;ACTIVE_STORE=STORE;state=blank();authShell('已退出当前账号。')}
 function renderHome(){const learned=new Set(state.history.map(x=>x.item_id)).size;const total=(DB.entries||[]).length;layout('','11 个部分 · 每部分 5 个模块 · 全部开放','home',`<section class="hero"><div><div class="kicker">VOCABULARY REVIEW</div><h1>德福考前必备-词汇 复习</h1></div><div class="stats"><div><strong>${learned} / ${total}</strong><span>已过单词</span></div><div><strong>${state.unknown.length}</strong><span>首次未知</span></div></div></section><section class="path">${DB.stages.map((s,i)=>stageCard(s,i+1)).join('')}</section>`)}
