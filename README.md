@@ -1,3 +1,15 @@
-本版本仅替换 app.js / style.css。
-GitHub 当前根目录的 words.json、verb_forms.json、preposition_collocations.json、word_relations.json 等数据库文件保持不动。
-supabase-config.js 保持不动。
+# 德福考前必备词汇复习网站（最终修正版）
+
+请用本包替换 GitHub 仓库中的 `index.html`、`app.js`、`style.css`，并保留现有的 `supabase-config.js`。
+
+本版本使用 `data/` 下完整最终数据库，不再读取旧 `vocab.json`。
+
+关键机制：
+- 11 个 Part 全部开放；每个 Part 的 4 个编号模块全部开放。
+- 同根词辨析是顶部独立入口，按词根组运行，不按 Part 分组。
+- Module 1：德语→中文；保留语义判定，不做简单字符串完全匹配。
+- Module 2：只填写 Präteritum / Partizip II，不展示例句。
+- Module 3：只使用明确的 inline 介词搭配；可分前缀不挖空；介词和格均为独立空格，题面隐藏 A./D./G./N.。
+- Module 4：同义/近义题把数据库中该题全部有效关系词一次性纳入正确选项；反义题同理；没有有效关系的词不出题。
+- 错误报告只在当前完整练习轮结束后统一生成；每题仅即时反馈。
+- 当前轮错误报告与永久错误本分离。

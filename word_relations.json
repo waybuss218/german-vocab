@@ -8,9 +8,7 @@
     "relation_type": "synonym",
     "evidence": "vermitteln",
     "in_db": 1,
-    "page": 2,
-    "resolved_word_id": 573,
-    "resolved_word": "vermitteln"
+    "page": 2
   },
   {
     "id": 2,
@@ -43,9 +41,7 @@
     "relation_type": "synonym",
     "evidence": "downloaden",
     "in_db": 1,
-    "page": 3,
-    "resolved_word_id": 2041,
-    "resolved_word": "downloaden"
+    "page": 3
   },
   {
     "id": 5,
@@ -56,9 +52,7 @@
     "relation_type": "synonym",
     "evidence": "verstehen",
     "in_db": 1,
-    "page": 5,
-    "resolved_word_id": 542,
-    "resolved_word": "verstehen"
+    "page": 5
   },
   {
     "id": 6,
@@ -80,9 +74,7 @@
     "relation_type": "synonym",
     "evidence": "sinken",
     "in_db": 1,
-    "page": 6,
-    "resolved_word_id": 2367,
-    "resolved_word": "sinken"
+    "page": 6
   },
   {
     "id": 8,
@@ -93,9 +85,7 @@
     "relation_type": "synonym",
     "evidence": "ab/nehmen",
     "in_db": 1,
-    "page": 6,
-    "resolved_word_id": 2368,
-    "resolved_word": "ab/nehmen"
+    "page": 6
   },
   {
     "id": 9,
@@ -106,9 +96,7 @@
     "relation_type": "synonym",
     "evidence": "schrumpfen",
     "in_db": 1,
-    "page": 6,
-    "resolved_word_id": 2371,
-    "resolved_word": "schrumpfen"
+    "page": 6
   },
   {
     "id": 10,
@@ -119,9 +107,7 @@
     "relation_type": "synonym",
     "evidence": "nach/lassen",
     "in_db": 1,
-    "page": 6,
-    "resolved_word_id": 2328,
-    "resolved_word": "nach/lassen"
+    "page": 6
   },
   {
     "id": 15,
@@ -132,9 +118,7 @@
     "relation_type": "synonym",
     "evidence": "aus/stoßen - der Ausstoß",
     "in_db": 1,
-    "page": 8,
-    "resolved_word_id": 1810,
-    "resolved_word": "aus/stoßen"
+    "page": 8
   },
   {
     "id": 16,
@@ -145,9 +129,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p11 \"近义词\" 标注",
     "in_db": 1,
-    "page": 11,
-    "resolved_word_id": 2033,
-    "resolved_word": "recherchieren"
+    "page": 11
   },
   {
     "id": 17,
@@ -158,9 +140,7 @@
     "relation_type": "antonym",
     "evidence": "反义词: sich an/melden 登记",
     "in_db": 1,
-    "page": 11,
-    "resolved_word_id": 2546,
-    "resolved_word": "sich an/melden"
+    "page": 11
   },
   {
     "id": 18,
@@ -171,9 +151,7 @@
     "relation_type": "antonym",
     "evidence": "反义词: zu/nehmen 增加",
     "in_db": 1,
-    "page": 11,
-    "resolved_word_id": 2359,
-    "resolved_word": "zu/nehmen"
+    "page": 11
   },
   {
     "id": 19,
@@ -184,9 +162,7 @@
     "relation_type": "synonym",
     "evidence": "ab/schlagen Vt.",
     "in_db": 1,
-    "page": 11,
-    "resolved_word_id": 61,
-    "resolved_word": "ab/schlagen"
+    "page": 11
   },
   {
     "id": 20,
@@ -197,9 +173,7 @@
     "relation_type": "synonym",
     "evidence": "ab/lehnen Vt. 反义词 : zu/sagen",
     "in_db": 1,
-    "page": 11,
-    "resolved_word_id": 49,
-    "resolved_word": "ab/lehnen"
+    "page": 11
   },
   {
     "id": 21,
@@ -210,9 +184,7 @@
     "relation_type": "synonym",
     "evidence": "aus/schalten",
     "in_db": 1,
-    "page": 12,
-    "resolved_word_id": 917,
-    "resolved_word": "aus/schalten"
+    "page": 12
   },
   {
     "id": 26,
@@ -223,9 +195,7 @@
     "relation_type": "near_synonym",
     "evidence": "可转换: unterscheiden Vt. R 31] 德福阅读题示例 :",
     "in_db": 1,
-    "page": 13,
-    "resolved_word_id": 2513,
-    "resolved_word": "unterscheiden"
+    "page": 13
   },
   {
     "id": 34,
@@ -236,9 +206,7 @@
     "relation_type": "synonym",
     "evidence": "iibertragen",
     "in_db": 1,
-    "page": 23,
-    "resolved_word_id": 690,
-    "resolved_word": "übertragen"
+    "page": 23
   },
   {
     "id": 35,
@@ -249,9 +217,7 @@
     "relation_type": "synonym",
     "evidence": "beschäftigen Vt.",
     "in_db": 1,
-    "page": 23,
-    "resolved_word_id": 1390,
-    "resolved_word": "beschäftigen"
+    "page": 23
   },
   {
     "id": 42,
@@ -284,9 +250,7 @@
     "relation_type": "synonym",
     "evidence": "auf/kommen",
     "in_db": 1,
-    "page": 30,
-    "resolved_word_id": 125,
-    "resolved_word": "auf/kommen"
+    "page": 30
   },
   {
     "id": 45,
@@ -308,9 +272,7 @@
     "relation_type": "synonym",
     "evidence": "entstehen",
     "in_db": 1,
-    "page": 30,
-    "resolved_word_id": 464,
-    "resolved_word": "entstehen"
+    "page": 30
   },
   {
     "id": 47,
@@ -321,9 +283,7 @@
     "relation_type": "synonym",
     "evidence": "erscheinen",
     "in_db": 1,
-    "page": 30,
-    "resolved_word_id": 1948,
-    "resolved_word": "erscheinen"
+    "page": 30
   },
   {
     "id": 48,
@@ -345,9 +305,7 @@
     "relation_type": "synonym",
     "evidence": "bezahlen Vt.",
     "in_db": 1,
-    "page": 30,
-    "resolved_word_id": 2074,
-    "resolved_word": "bezahlen"
+    "page": 30
   },
   {
     "id": 50,
@@ -358,9 +316,7 @@
     "relation_type": "synonym",
     "evidence": "auf/wenden Vt.",
     "in_db": 1,
-    "page": 30,
-    "resolved_word_id": 2079,
-    "resolved_word": "auf/wenden"
+    "page": 30
   },
   {
     "id": 51,
@@ -382,9 +338,7 @@
     "relation_type": "synonym",
     "evidence": "konsumieren Vt.",
     "in_db": 1,
-    "page": 30,
-    "resolved_word_id": 2076,
-    "resolved_word": "konsumieren"
+    "page": 30
   },
   {
     "id": 57,
@@ -406,9 +360,7 @@
     "relation_type": "antonym",
     "evidence": "反义词: ein/wandern; zu/wandern",
     "in_db": 1,
-    "page": 39,
-    "resolved_word_id": 2290,
-    "resolved_word": "ein/wandern"
+    "page": 39
   },
   {
     "id": 65,
@@ -463,9 +415,7 @@
     "relation_type": "synonym",
     "evidence": "beurteilen 评价",
     "in_db": 1,
-    "page": 46,
-    "resolved_word_id": 334,
-    "resolved_word": "beurteilen"
+    "page": 46
   },
   {
     "id": 71,
@@ -476,9 +426,7 @@
     "relation_type": "synonym",
     "evidence": "an/kommen",
     "in_db": 1,
-    "page": 48,
-    "resolved_word_id": 90,
-    "resolved_word": "an/kommen"
+    "page": 48
   },
   {
     "id": 74,
@@ -544,9 +492,7 @@
     "relation_type": "synonym",
     "evidence": "versorgen (Energie",
     "in_db": 1,
-    "page": 54,
-    "resolved_word_id": 2496,
-    "resolved_word": "versorgen"
+    "page": 54
   },
   {
     "id": 81,
@@ -566,8 +512,8 @@
     "related_word": "Benzin",
     "related_gloss": ")",
     "relation_type": "synonym",
-    "evidence": "Benzin zuführen)；清理：Benzin 为“Benzin zuführen”中的宾语，不是 die Zufuhr 的同义词。",
-    "in_db": 0,
+    "evidence": "Benzin zuführen)",
+    "in_db": 1,
     "page": 54
   },
   {
@@ -579,9 +525,7 @@
     "relation_type": "synonym",
     "evidence": "gestehen",
     "in_db": 1,
-    "page": 54,
-    "resolved_word_id": 527,
-    "resolved_word": "gestehen"
+    "page": 54
   },
   {
     "id": 84,
@@ -625,9 +569,7 @@
     "relation_type": "near_synonym",
     "evidence": "可转换: zw/wenden Vt. die Zuwendung; #9; Ad; 致力于 spenden Vt.; 捐赠，捐款 fördern Vt. 支持，提升，促进",
     "in_db": 1,
-    "page": 57,
-    "resolved_word_id": 2134,
-    "resolved_word": "zu/wenden"
+    "page": 57
   },
   {
     "id": 92,
@@ -649,9 +591,7 @@
     "relation_type": "synonym",
     "evidence": "ein/wirken aufA. 产生影响",
     "in_db": 1,
-    "page": 60,
-    "resolved_word_id": 2565,
-    "resolved_word": "ein/wirken"
+    "page": 60
   },
   {
     "id": 98,
@@ -662,9 +602,7 @@
     "relation_type": "synonym",
     "evidence": "widerlegen VL. ax}",
     "in_db": 1,
-    "page": 63,
-    "resolved_word_id": 2553,
-    "resolved_word": "widerlegen"
+    "page": 63
   },
   {
     "id": 101,
@@ -675,9 +613,7 @@
     "relation_type": "antonym",
     "evidence": "反义词: verzögern 耽搁，延迟 德福阅读题示例 :",
     "in_db": 1,
-    "page": 65,
-    "resolved_word_id": 647,
-    "resolved_word": "verzögern"
+    "page": 65
   },
   {
     "id": 102,
@@ -765,9 +701,7 @@
     "relation_type": "synonym",
     "evidence": "erstatten (erstattete",
     "in_db": 1,
-    "page": 88,
-    "resolved_word_id": 2129,
-    "resolved_word": "erstatten"
+    "page": 88
   },
   {
     "id": 121,
@@ -778,9 +712,7 @@
     "relation_type": "synonym",
     "evidence": "leiden an +D.(Krankheit) / leiden unter D. etw. (D.) ausgesetzt sein",
     "in_db": 1,
-    "page": 90,
-    "resolved_word_id": 2579,
-    "resolved_word": "leiden"
+    "page": 90
   },
   {
     "id": 122,
@@ -791,9 +723,7 @@
     "relation_type": "synonym",
     "evidence": "an/kommen",
     "in_db": 1,
-    "page": 92,
-    "resolved_word_id": 90,
-    "resolved_word": "an/kommen"
+    "page": 92
   },
   {
     "id": 123,
@@ -804,9 +734,7 @@
     "relation_type": "synonym",
     "evidence": "ein/treffen",
     "in_db": 1,
-    "page": 92,
-    "resolved_word_id": 231,
-    "resolved_word": "ein/treffen"
+    "page": 92
   },
   {
     "id": 127,
@@ -817,9 +745,7 @@
     "relation_type": "synonym",
     "evidence": "sich irren 和弄错",
     "in_db": 1,
-    "page": 96,
-    "resolved_word_id": 2522,
-    "resolved_word": "sich irren"
+    "page": 96
   },
   {
     "id": 128,
@@ -852,9 +778,7 @@
     "relation_type": "synonym",
     "evidence": "sich benehmen",
     "in_db": 1,
-    "page": 104,
-    "resolved_word_id": 2466,
-    "resolved_word": "sich benehmen"
+    "page": 104
   },
   {
     "id": 133,
@@ -887,9 +811,7 @@
     "relation_type": "antonym",
     "evidence": "反义词: sich beeilen 赶时间 ; beschleunigen Vt. 加速",
     "in_db": 1,
-    "page": 111,
-    "resolved_word_id": 2516,
-    "resolved_word": "sich beeilen"
+    "page": 111
   },
   {
     "id": 137,
@@ -900,9 +822,7 @@
     "relation_type": "synonym",
     "evidence": "schmelzen (schmilzt",
     "in_db": 1,
-    "page": 112,
-    "resolved_word_id": 1766,
-    "resolved_word": "schmelzen"
+    "page": 112
   },
   {
     "id": 138,
@@ -924,9 +844,7 @@
     "relation_type": "antonym",
     "evidence": "反义词: unterschitzen (两者都可以传达消极语义 )",
     "in_db": 1,
-    "page": 117,
-    "resolved_word_id": 748,
-    "resolved_word": "unterschätzen"
+    "page": 117
   },
   {
     "id": 141,
@@ -981,9 +899,7 @@
     "relation_type": "antonym",
     "evidence": "反义词: iiberfordern 要求过高，苛求",
     "in_db": 1,
-    "page": 127,
-    "resolved_word_id": 678,
-    "resolved_word": "überfordern"
+    "page": 127
   },
   {
     "id": 146,
@@ -994,9 +910,7 @@
     "relation_type": "antonym",
     "evidence": "反义词: iiberschitzen 高估",
     "in_db": 1,
-    "page": 127,
-    "resolved_word_id": 2508,
-    "resolved_word": "überschätzen"
+    "page": 127
   },
   {
     "id": 147,
@@ -1040,9 +954,7 @@
     "relation_type": "synonym",
     "evidence": "referieren Vt.",
     "in_db": 1,
-    "page": 162,
-    "resolved_word_id": 2526,
-    "resolved_word": "referieren"
+    "page": 162
   },
   {
     "id": 153,
@@ -1097,9 +1009,7 @@
     "relation_type": "synonym",
     "evidence": "原书 p43: die Einbuße = der Verlust",
     "in_db": 1,
-    "page": 43,
-    "resolved_word_id": 2150,
-    "resolved_word": "der Verlust, -e"
+    "page": 43
   },
   {
     "id": 161,
@@ -1121,9 +1031,7 @@
     "relation_type": "synonym",
     "evidence": "原书 p48: Einwand = Gegenposition = Vorwurf = Kritik",
     "in_db": 1,
-    "page": 48,
-    "resolved_word_id": 2404,
-    "resolved_word": "der Vorwurf, ..e"
+    "page": 48
   },
   {
     "id": 163,
@@ -1134,9 +1042,7 @@
     "relation_type": "synonym",
     "evidence": "原书 p48: Einwand = Gegenposition = Vorwurf = Kritik",
     "in_db": 1,
-    "page": 48,
-    "resolved_word_id": 2400,
-    "resolved_word": "die Kritik, -en"
+    "page": 48
   },
   {
     "id": 164,
@@ -1147,9 +1053,7 @@
     "relation_type": "synonym",
     "evidence": "原书 p88: die Erscheinung = die Veröffentlichung = die Publikation 出版物",
     "in_db": 1,
-    "page": 88,
-    "resolved_word_id": 1952,
-    "resolved_word": "die Veröffentlichung, -en"
+    "page": 88
   },
   {
     "id": 165,
@@ -1160,9 +1064,7 @@
     "relation_type": "synonym",
     "evidence": "原书 p88",
     "in_db": 1,
-    "page": 88,
-    "resolved_word_id": 1950,
-    "resolved_word": "die Publikation, -en"
+    "page": 88
   },
   {
     "id": 166,
@@ -1184,9 +1086,7 @@
     "relation_type": "synonym",
     "evidence": "原书 p106: das Vermögen = der Besitz; das Eigentum",
     "in_db": 1,
-    "page": 106,
-    "resolved_word_id": 2057,
-    "resolved_word": "der Besitz"
+    "page": 106
   },
   {
     "id": 168,
@@ -1208,9 +1108,7 @@
     "relation_type": "synonym",
     "evidence": "原书 p108: der Verbrauch = der Konsum",
     "in_db": 1,
-    "page": 108,
-    "resolved_word_id": 2077,
-    "resolved_word": "das Konsum"
+    "page": 108
   },
   {
     "id": 170,
@@ -1309,9 +1207,7 @@
     "relation_type": "synonym",
     "evidence": "原书 p169: auf/bereiten (水) 净化 = reinigen",
     "in_db": 1,
-    "page": 169,
-    "resolved_word_id": 2535,
-    "resolved_word": "reinigen"
+    "page": 169
   },
   {
     "id": 179,
@@ -1377,9 +1273,7 @@
     "relation_type": "synonym",
     "evidence": "原书 p199: der Kritiker = der Gegner",
     "in_db": 1,
-    "page": 199,
-    "resolved_word_id": 430,
-    "resolved_word": "der Gegner, -"
+    "page": 199
   },
   {
     "id": 185,
@@ -1401,9 +1295,7 @@
     "relation_type": "synonym",
     "evidence": "原书 p198: 表示\"反对\"的词汇",
     "in_db": 1,
-    "page": 198,
-    "resolved_word_id": 49,
-    "resolved_word": "ab/lehnen"
+    "page": 198
   },
   {
     "id": 187,
@@ -1414,9 +1306,7 @@
     "relation_type": "synonym",
     "evidence": "原书 p109: sich verringern = sich vermindern = sinken",
     "in_db": 1,
-    "page": 109,
-    "resolved_word_id": 2367,
-    "resolved_word": "sinken"
+    "page": 109
   },
   {
     "id": 188,
@@ -1469,8 +1359,8 @@
     "related_word": "der Gedeih",
     "related_gloss": "",
     "relation_type": "antonym",
-    "evidence": "原书 p98: der Verderb, verderblich 反义词: der Gedeih；清理：原书 OCR 为“der Gedeih”，词库无对应正式名词词条，因此不作为可选正确答案。",
-    "in_db": 0,
+    "evidence": "原书 p98: der Verderb, verderblich 反义词: der Gedeih",
+    "in_db": 1,
     "page": 98
   },
   {
@@ -1482,9 +1372,7 @@
     "relation_type": "antonym",
     "evidence": "原书 p12: die Abschlussquote 反义词: Abbruchquote 辍学率",
     "in_db": 1,
-    "page": 12,
-    "resolved_word_id": 1566,
-    "resolved_word": "die Abbruchquote"
+    "page": 12
   },
   {
     "id": 195,
@@ -1495,9 +1383,7 @@
     "relation_type": "antonym",
     "evidence": "原书 p11/p57: 反义词 zusagen, die Zusage / ab/sagen, die Absage",
     "in_db": 1,
-    "page": 11,
-    "resolved_word_id": 59,
-    "resolved_word": "die Absage, -n"
+    "page": 11
   },
   {
     "id": 196,
@@ -1508,9 +1394,7 @@
     "relation_type": "antonym",
     "evidence": "原书 p11: die Absage 反义词: zusagen, die Zusage",
     "in_db": 1,
-    "page": 11,
-    "resolved_word_id": 284,
-    "resolved_word": "die Zusage, -n"
+    "page": 11
   },
   {
     "id": 197,
@@ -1521,9 +1405,7 @@
     "relation_type": "antonym",
     "evidence": "原书 p57: 德福题中 Zusatzqualifikation 与 Schlüsselqualifikation 常是反义词",
     "in_db": 1,
-    "page": 57,
-    "resolved_word_id": 1269,
-    "resolved_word": "die Schlüsselqualifikation, -en"
+    "page": 57
   },
   {
     "id": 198,
@@ -1578,9 +1460,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p8 \"近义词\" 标注（表示\"排放\"义）",
     "in_db": 1,
-    "page": 8,
-    "resolved_word_id": 1811,
-    "resolved_word": "der Ausstoß"
+    "page": 8
   },
   {
     "id": 203,
@@ -1635,9 +1515,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p9 \"近义词\" 标注（反向锚定：原书标注于 ab/halten(妨碍义) 词条，ab/halten 未收录）",
     "in_db": 1,
-    "page": 9,
-    "resolved_word_id": 2437,
-    "resolved_word": "ab/halten"
+    "page": 9
   },
   {
     "id": 208,
@@ -1648,9 +1526,7 @@
     "relation_type": "synonym",
     "evidence": "原书p9 \"同义词\" 标注（词义\"过程，经过\"）",
     "in_db": 1,
-    "page": 9,
-    "resolved_word_id": 2171,
-    "resolved_word": "der Prozess, -e"
+    "page": 9
   },
   {
     "id": 209,
@@ -1661,9 +1537,7 @@
     "relation_type": "synonym",
     "evidence": "原书p9 \"同义词\" 标注（词义\"过程，经过\"）",
     "in_db": 1,
-    "page": 9,
-    "resolved_word_id": 244,
-    "resolved_word": "der Vorgang, ..e"
+    "page": 9
   },
   {
     "id": 210,
@@ -1685,9 +1559,7 @@
     "relation_type": "synonym",
     "evidence": "原书p10 \"同义词\" 标注（词义\"代替\"）",
     "in_db": 1,
-    "page": 10,
-    "resolved_word_id": 2126,
-    "resolved_word": "ersetzen"
+    "page": 10
   },
   {
     "id": 212,
@@ -1698,9 +1570,7 @@
     "relation_type": "antonym",
     "evidence": "原书p11 \"反义词\" 标注",
     "in_db": 1,
-    "page": 11,
-    "resolved_word_id": 2546,
-    "resolved_word": "sich an/melden"
+    "page": 11
   },
   {
     "id": 213,
@@ -1711,9 +1581,7 @@
     "relation_type": "antonym",
     "evidence": "原书p11 \"反义词\" 标注",
     "in_db": 1,
-    "page": 11,
-    "resolved_word_id": 2359,
-    "resolved_word": "zu/nehmen"
+    "page": 11
   },
   {
     "id": 214,
@@ -1724,9 +1592,7 @@
     "relation_type": "synonym",
     "evidence": "原书p11 \"同义词\" 标注（词义\"回绝\"）",
     "in_db": 1,
-    "page": 11,
-    "resolved_word_id": 61,
-    "resolved_word": "ab/schlagen"
+    "page": 11
   },
   {
     "id": 215,
@@ -1737,9 +1603,7 @@
     "relation_type": "synonym",
     "evidence": "原书p11 \"同义词\" 标注（词义\"回绝\"）",
     "in_db": 1,
-    "page": 11,
-    "resolved_word_id": 49,
-    "resolved_word": "ab/lehnen"
+    "page": 11
   },
   {
     "id": 216,
@@ -1750,9 +1614,7 @@
     "relation_type": "antonym",
     "evidence": "原书p11 \"反义词\" 标注",
     "in_db": 1,
-    "page": 11,
-    "resolved_word_id": 289,
-    "resolved_word": "zu/sagen"
+    "page": 11
   },
   {
     "id": 217,
@@ -1763,9 +1625,7 @@
     "relation_type": "antonym",
     "evidence": "原书p11 \"反义词\" 标注",
     "in_db": 1,
-    "page": 11,
-    "resolved_word_id": 284,
-    "resolved_word": "die Zusage, -n"
+    "page": 11
   },
   {
     "id": 218,
@@ -1776,9 +1636,7 @@
     "relation_type": "antonym",
     "evidence": "原书p12 \"反义词\" 标注（原文 OCR \"am/schalten\" 已修正）",
     "in_db": 1,
-    "page": 12,
-    "resolved_word_id": 1981,
-    "resolved_word": "an/schalten"
+    "page": 12
   },
   {
     "id": 219,
@@ -1800,9 +1658,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p12 \"近义词\" 标注",
     "in_db": 1,
-    "page": 12,
-    "resolved_word_id": 334,
-    "resolved_word": "beurteilen"
+    "page": 12
   },
   {
     "id": 221,
@@ -1890,9 +1746,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p20 \"近义词\" 标注（天赋义，原书注\"可转换的\"）",
     "in_db": 1,
-    "page": 20,
-    "resolved_word_id": 562,
-    "resolved_word": "die Veranlagung"
+    "page": 20
   },
   {
     "id": 229,
@@ -1936,9 +1790,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p20 \"近义词\" 标注（天赋义，原书注\"可转换的\"）",
     "in_db": 1,
-    "page": 20,
-    "resolved_word_id": 936,
-    "resolved_word": "das Erbgut"
+    "page": 20
   },
   {
     "id": 233,
@@ -1949,9 +1801,7 @@
     "relation_type": "synonym",
     "evidence": "原书p21 \"同义词\" 标注（假设义）",
     "in_db": 1,
-    "page": 21,
-    "resolved_word_id": 777,
-    "resolved_word": "die Hypothese, ."
+    "page": 21
   },
   {
     "id": 234,
@@ -1962,9 +1812,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p22 \"近义词\" 标注",
     "in_db": 1,
-    "page": 22,
-    "resolved_word_id": 592,
-    "resolved_word": "verbinden"
+    "page": 22
   },
   {
     "id": 235,
@@ -1997,9 +1845,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p23 \"近义词\" 标注（雇佣义）",
     "in_db": 1,
-    "page": 23,
-    "resolved_word_id": 1368,
-    "resolved_word": "ein/stellen"
+    "page": 23
   },
   {
     "id": 238,
@@ -2010,9 +1856,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p23 \"近义词\" 标注（雇佣义）",
     "in_db": 1,
-    "page": 23,
-    "resolved_word_id": 1390,
-    "resolved_word": "beschäftigen"
+    "page": 23
   },
   {
     "id": 239,
@@ -2023,9 +1867,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p23 \"近义词\" 标注",
     "in_db": 1,
-    "page": 23,
-    "resolved_word_id": 568,
-    "resolved_word": "verfolgen"
+    "page": 23
   },
   {
     "id": 240,
@@ -2058,9 +1900,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p24 \"近义词\" 标注",
     "in_db": 1,
-    "page": 24,
-    "resolved_word_id": 2425,
-    "resolved_word": "fördern"
+    "page": 24
   },
   {
     "id": 243,
@@ -2093,9 +1933,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p27 \"近义词\" 标注（原书标注于 auf/fassen 词条（其名词形式 die Auffassung 未收录））",
     "in_db": 1,
-    "page": 27,
-    "resolved_word_id": 2446,
-    "resolved_word": "die Auffassung, -en"
+    "page": 27
   },
   {
     "id": 246,
@@ -2106,9 +1944,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p27 \"近义词\" 标注（同上）",
     "in_db": 1,
-    "page": 27,
-    "resolved_word_id": 2446,
-    "resolved_word": "die Auffassung, -en"
+    "page": 27
   },
   {
     "id": 247,
@@ -2196,9 +2032,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p30 \"近义词\" 标注",
     "in_db": 1,
-    "page": 30,
-    "resolved_word_id": 2074,
-    "resolved_word": "bezahlen"
+    "page": 30
   },
   {
     "id": 255,
@@ -2209,9 +2043,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p30 \"近义词\" 标注",
     "in_db": 1,
-    "page": 30,
-    "resolved_word_id": 2075,
-    "resolved_word": "aus/geben für A."
+    "page": 30
   },
   {
     "id": 256,
@@ -2222,9 +2054,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p30 \"近义词\" 标注",
     "in_db": 1,
-    "page": 30,
-    "resolved_word_id": 2076,
-    "resolved_word": "konsumieren"
+    "page": 30
   },
   {
     "id": 257,
@@ -2246,9 +2076,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p30 \"近义词\" 标注",
     "in_db": 1,
-    "page": 30,
-    "resolved_word_id": 2544,
-    "resolved_word": "finanzieren"
+    "page": 30
   },
   {
     "id": 259,
@@ -2270,9 +2098,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p31 \"近义词\" 标注",
     "in_db": 1,
-    "page": 31,
-    "resolved_word_id": 169,
-    "resolved_word": "aus/gleichen"
+    "page": 31
   },
   {
     "id": 261,
@@ -2294,9 +2120,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p35 \"近义词\" 标注",
     "in_db": 1,
-    "page": 35,
-    "resolved_word_id": 2074,
-    "resolved_word": "bezahlen"
+    "page": 35
   },
   {
     "id": 263,
@@ -2307,9 +2131,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p35 \"近义词\" 标注",
     "in_db": 1,
-    "page": 35,
-    "resolved_word_id": 2076,
-    "resolved_word": "konsumieren"
+    "page": 35
   },
   {
     "id": 264,
@@ -2320,9 +2142,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p35 \"近义词\" 标注",
     "in_db": 1,
-    "page": 35,
-    "resolved_word_id": 2079,
-    "resolved_word": "auf/wenden"
+    "page": 35
   },
   {
     "id": 265,
@@ -2344,9 +2164,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p35 \"近义词\" 标注",
     "in_db": 1,
-    "page": 35,
-    "resolved_word_id": 147,
-    "resolved_word": "auf/wiegen"
+    "page": 35
   },
   {
     "id": 267,
@@ -2412,9 +2230,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p38 \"近义词\" 标注",
     "in_db": 1,
-    "page": 38,
-    "resolved_word_id": 1808,
-    "resolved_word": "ab/geben"
+    "page": 38
   },
   {
     "id": 273,
@@ -2425,9 +2241,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p38 \"近义词\" 标注",
     "in_db": 1,
-    "page": 38,
-    "resolved_word_id": 1807,
-    "resolved_word": "emittieren"
+    "page": 38
   },
   {
     "id": 274,
@@ -2438,9 +2252,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p38 \"近义词\" 标注",
     "in_db": 1,
-    "page": 38,
-    "resolved_word_id": 1806,
-    "resolved_word": "die Emission, -en"
+    "page": 38
   },
   {
     "id": 275,
@@ -2451,9 +2263,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p38 \"近义词\" 标注",
     "in_db": 1,
-    "page": 38,
-    "resolved_word_id": 2533,
-    "resolved_word": "frei/setzen"
+    "page": 38
   },
   {
     "id": 276,
@@ -2464,9 +2274,7 @@
     "relation_type": "antonym",
     "evidence": "原书p39 \"反义词\" 标注",
     "in_db": 1,
-    "page": 39,
-    "resolved_word_id": 2301,
-    "resolved_word": "zu/wandern"
+    "page": 39
   },
   {
     "id": 277,
@@ -2477,9 +2285,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p43 \"近义词\" 标注",
     "in_db": 1,
-    "page": 43,
-    "resolved_word_id": 172,
-    "resolved_word": "sich mit D. aus/kennen"
+    "page": 43
   },
   {
     "id": 278,
@@ -2512,9 +2318,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p44 \"近义词\" 标注（反向锚定：原书标注于 ein/dämmen 词条（未收录））",
     "in_db": 1,
-    "page": 44,
-    "resolved_word_id": 2451,
-    "resolved_word": "ein/dämmen"
+    "page": 44
   },
   {
     "id": 281,
@@ -2525,9 +2329,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p44 \"近义词\" 标注",
     "in_db": 1,
-    "page": 44,
-    "resolved_word_id": 2307,
-    "resolved_word": "integrieren"
+    "page": 44
   },
   {
     "id": 282,
@@ -2538,9 +2340,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p44 \"近义词\" 标注",
     "in_db": 1,
-    "page": 44,
-    "resolved_word_id": 2308,
-    "resolved_word": "die Integration"
+    "page": 44
   },
   {
     "id": 283,
@@ -2584,9 +2384,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p46 \"近义词\" 标注",
     "in_db": 1,
-    "page": 46,
-    "resolved_word_id": 712,
-    "resolved_word": "umfassen"
+    "page": 46
   },
   {
     "id": 287,
@@ -2597,9 +2395,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p48 \"近义词\" 标注",
     "in_db": 1,
-    "page": 48,
-    "resolved_word_id": 294,
-    "resolved_word": "zu/stimmen"
+    "page": 48
   },
   {
     "id": 288,
@@ -2654,9 +2450,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p50 \"近义词\" 标注",
     "in_db": 1,
-    "page": 50,
-    "resolved_word_id": 2171,
-    "resolved_word": "der Prozess, -e"
+    "page": 50
   },
   {
     "id": 293,
@@ -2711,9 +2505,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p53 \"近义词\" 标注",
     "in_db": 1,
-    "page": 53,
-    "resolved_word_id": 2399,
-    "resolved_word": "kritisieren"
+    "page": 53
   },
   {
     "id": 298,
@@ -2724,9 +2516,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p53 \"近义词\" 标注",
     "in_db": 1,
-    "page": 53,
-    "resolved_word_id": 1967,
-    "resolved_word": "die Kritik, -en"
+    "page": 53
   },
   {
     "id": 299,
@@ -2737,9 +2527,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p53 \"近义词\" 标注（原文 OCR 噪音较多，取可靠部分）",
     "in_db": 1,
-    "page": 53,
-    "resolved_word_id": 419,
-    "resolved_word": "bevorzugen"
+    "page": 53
   },
   {
     "id": 300,
@@ -2750,9 +2538,7 @@
     "relation_type": "synonym",
     "evidence": "原书p54 \"同义词\" 标注（招认义）",
     "in_db": 1,
-    "page": 54,
-    "resolved_word_id": 527,
-    "resolved_word": "gestehen"
+    "page": 54
   },
   {
     "id": 301,
@@ -2763,9 +2549,7 @@
     "relation_type": "synonym",
     "evidence": "原书p54 \"同义词\" 标注（招认义）",
     "in_db": 1,
-    "page": 54,
-    "resolved_word_id": 528,
-    "resolved_word": "das Geständnis, -se"
+    "page": 54
   },
   {
     "id": 302,
@@ -2776,9 +2560,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p56 \"近义词\" 标注",
     "in_db": 1,
-    "page": 56,
-    "resolved_word_id": 2358,
-    "resolved_word": "steigen"
+    "page": 56
   },
   {
     "id": 303,
@@ -2789,9 +2571,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p56 \"近义词\" 标注",
     "in_db": 1,
-    "page": 56,
-    "resolved_word_id": 2360,
-    "resolved_word": "wachsen"
+    "page": 56
   },
   {
     "id": 304,
@@ -2824,9 +2604,7 @@
     "relation_type": "antonym",
     "evidence": "原书p57 \"反义词\" 标注",
     "in_db": 1,
-    "page": 57,
-    "resolved_word_id": 55,
-    "resolved_word": "ab/sagen"
+    "page": 57
   },
   {
     "id": 307,
@@ -2837,9 +2615,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p58 \"近义词\" 标注",
     "in_db": 1,
-    "page": 58,
-    "resolved_word_id": 2393,
-    "resolved_word": "befürworten"
+    "page": 58
   },
   {
     "id": 308,
@@ -2927,9 +2703,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p63 \"近义词\" 标注",
     "in_db": 1,
-    "page": 63,
-    "resolved_word_id": 2011,
-    "resolved_word": "aus/statten"
+    "page": 63
   },
   {
     "id": 316,
@@ -2973,9 +2747,7 @@
     "relation_type": "synonym",
     "evidence": "原书p69 \"同义词\" 标注（理解义）",
     "in_db": 1,
-    "page": 69,
-    "resolved_word_id": 1605,
-    "resolved_word": "nach/vollziehen"
+    "page": 69
   },
   {
     "id": 320,
@@ -2986,9 +2758,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p70 \"近义词\" 标注",
     "in_db": 1,
-    "page": 70,
-    "resolved_word_id": 1824,
-    "resolved_word": "beseitigen"
+    "page": 70
   },
   {
     "id": 321,
@@ -2999,9 +2769,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p70 \"近义词\" 标注",
     "in_db": 1,
-    "page": 70,
-    "resolved_word_id": 2475,
-    "resolved_word": "erlernen"
+    "page": 70
   },
   {
     "id": 322,
@@ -3012,9 +2780,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p70 \"近义词\" 标注",
     "in_db": 1,
-    "page": 70,
-    "resolved_word_id": 2474,
-    "resolved_word": "erfassen"
+    "page": 70
   },
   {
     "id": 323,
@@ -3025,9 +2791,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p70 \"近义词\" 标注",
     "in_db": 1,
-    "page": 70,
-    "resolved_word_id": 83,
-    "resolved_word": "sich etwas an/eignen"
+    "page": 70
   },
   {
     "id": 324,
@@ -3038,9 +2802,7 @@
     "relation_type": "synonym",
     "evidence": "原书p70 \"同义词\" 标注",
     "in_db": 1,
-    "page": 70,
-    "resolved_word_id": 527,
-    "resolved_word": "gestehen"
+    "page": 70
   },
   {
     "id": 325,
@@ -3051,9 +2813,7 @@
     "relation_type": "synonym",
     "evidence": "原书p70 \"同义词\" 标注",
     "in_db": 1,
-    "page": 70,
-    "resolved_word_id": 533,
-    "resolved_word": "zugeben"
+    "page": 70
   },
   {
     "id": 326,
@@ -3064,9 +2824,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p71 \"近义词\" 标注",
     "in_db": 1,
-    "page": 71,
-    "resolved_word_id": 2356,
-    "resolved_word": "ein/nehmen"
+    "page": 71
   },
   {
     "id": 327,
@@ -3099,9 +2857,7 @@
     "relation_type": "synonym",
     "evidence": "原书p72 \"同义词\" 标注（原书标注于 sich benehmen 词条（未收录））",
     "in_db": 1,
-    "page": 72,
-    "resolved_word_id": 1070,
-    "resolved_word": "das Verhalten"
+    "page": 72
   },
   {
     "id": 330,
@@ -3112,9 +2868,7 @@
     "relation_type": "synonym",
     "evidence": "原书p72 \"同义词\" 标注（原书标注于 sich benehmen 词条（未收录））",
     "in_db": 1,
-    "page": 72,
-    "resolved_word_id": 2500,
-    "resolved_word": "sich verhalten"
+    "page": 72
   },
   {
     "id": 331,
@@ -3125,9 +2879,7 @@
     "relation_type": "synonym",
     "evidence": "原书p73 \"同义词\" 标注",
     "in_db": 1,
-    "page": 73,
-    "resolved_word_id": 2058,
-    "resolved_word": "das Vermögen"
+    "page": 73
   },
   {
     "id": 332,
@@ -3182,9 +2934,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p75 \"近义词\" 标注",
     "in_db": 1,
-    "page": 75,
-    "resolved_word_id": 1117,
-    "resolved_word": "die Skepsis"
+    "page": 75
   },
   {
     "id": 337,
@@ -3228,9 +2978,7 @@
     "relation_type": "synonym",
     "evidence": "原书p78 \"同义词\" 标注",
     "in_db": 1,
-    "page": 78,
-    "resolved_word_id": 962,
-    "resolved_word": "die Epidemie, -n"
+    "page": 78
   },
   {
     "id": 341,
@@ -3241,9 +2989,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p79 \"近义词\" 标注",
     "in_db": 1,
-    "page": 79,
-    "resolved_word_id": 2129,
-    "resolved_word": "erstatten"
+    "page": 79
   },
   {
     "id": 342,
@@ -3287,9 +3033,7 @@
     "relation_type": "synonym",
     "evidence": "原书p84 \"同义词\" 标注",
     "in_db": 1,
-    "page": 84,
-    "resolved_word_id": 2329,
-    "resolved_word": "der Nachlass, ..e"
+    "page": 84
   },
   {
     "id": 346,
@@ -3322,9 +3066,7 @@
     "relation_type": "synonym",
     "evidence": "原书p93 \"同义词\" 标注（反向锚定：原书标注于 genügen 词条（未收录））",
     "in_db": 1,
-    "page": 93,
-    "resolved_word_id": 2481,
-    "resolved_word": "genügen"
+    "page": 93
   },
   {
     "id": 349,
@@ -3335,9 +3077,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p94 \"近义词\" 标注",
     "in_db": 1,
-    "page": 94,
-    "resolved_word_id": 497,
-    "resolved_word": "erstellen"
+    "page": 94
   },
   {
     "id": 350,
@@ -3359,9 +3099,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p94 \"近义词\" 标注",
     "in_db": 1,
-    "page": 94,
-    "resolved_word_id": 2275,
-    "resolved_word": "genehmigen"
+    "page": 94
   },
   {
     "id": 352,
@@ -3383,9 +3121,7 @@
     "relation_type": "synonym",
     "evidence": "原书p94 \"同义词\" 标注",
     "in_db": 1,
-    "page": 94,
-    "resolved_word_id": 388,
-    "resolved_word": "bekennen"
+    "page": 94
   },
   {
     "id": 354,
@@ -3396,9 +3132,7 @@
     "relation_type": "synonym",
     "evidence": "原书p94 \"同义词\" 标注",
     "in_db": 1,
-    "page": 94,
-    "resolved_word_id": 533,
-    "resolved_word": "zugeben"
+    "page": 94
   },
   {
     "id": 355,
@@ -3409,9 +3143,7 @@
     "relation_type": "synonym",
     "evidence": "原书p95 \"同义词\" 标注",
     "in_db": 1,
-    "page": 95,
-    "resolved_word_id": 1117,
-    "resolved_word": "die Skepsis"
+    "page": 95
   },
   {
     "id": 356,
@@ -3422,9 +3154,7 @@
     "relation_type": "synonym",
     "evidence": "原书p96 \"同义词\" 标注",
     "in_db": 1,
-    "page": 96,
-    "resolved_word_id": 2333,
-    "resolved_word": "der Irrtum"
+    "page": 96
   },
   {
     "id": 357,
@@ -3446,9 +3176,7 @@
     "relation_type": "antonym",
     "evidence": "原书p98 \"反义词\" 标注（原文 OCR \"der Gedeih\"）",
     "in_db": 1,
-    "page": 98,
-    "resolved_word_id": 520,
-    "resolved_word": "gedeihen"
+    "page": 98
   },
   {
     "id": 359,
@@ -3514,9 +3242,7 @@
     "relation_type": "synonym",
     "evidence": "原书p103 \"同义词\" 标注",
     "in_db": 1,
-    "page": 103,
-    "resolved_word_id": 2108,
-    "resolved_word": "das Einkommen"
+    "page": 103
   },
   {
     "id": 365,
@@ -3527,9 +3253,7 @@
     "relation_type": "synonym",
     "evidence": "原书p103 \"同义词\" 标注",
     "in_db": 1,
-    "page": 103,
-    "resolved_word_id": 1330,
-    "resolved_word": "das Gehalt, ..er"
+    "page": 103
   },
   {
     "id": 366,
@@ -3551,9 +3275,7 @@
     "relation_type": "synonym",
     "evidence": "原书p104 \"同义词\" 标注",
     "in_db": 1,
-    "page": 104,
-    "resolved_word_id": 1071,
-    "resolved_word": "das Benehmen"
+    "page": 104
   },
   {
     "id": 368,
@@ -3564,9 +3286,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p105 \"近义词\" 标注",
     "in_db": 1,
-    "page": 105,
-    "resolved_word_id": 2556,
-    "resolved_word": "blockieren"
+    "page": 105
   },
   {
     "id": 369,
@@ -3577,9 +3297,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p105 \"近义词\" 标注",
     "in_db": 1,
-    "page": 105,
-    "resolved_word_id": 2432,
-    "resolved_word": "versperren"
+    "page": 105
   },
   {
     "id": 370,
@@ -3590,9 +3308,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p107 \"近义词\" 标注",
     "in_db": 1,
-    "page": 107,
-    "resolved_word_id": 1000,
-    "resolved_word": "essen"
+    "page": 107
   },
   {
     "id": 371,
@@ -3614,9 +3330,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p111 \"近义词\" 标注",
     "in_db": 1,
-    "page": 111,
-    "resolved_word_id": 2244,
-    "resolved_word": "versäumen"
+    "page": 111
   },
   {
     "id": 373,
@@ -3627,9 +3341,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p111 \"近义词\" 标注",
     "in_db": 1,
-    "page": 111,
-    "resolved_word_id": 2245,
-    "resolved_word": "das Versäumnis, -se"
+    "page": 111
   },
   {
     "id": 374,
@@ -3640,9 +3352,7 @@
     "relation_type": "antonym",
     "evidence": "原书p111 \"反义词\" 标注",
     "in_db": 1,
-    "page": 111,
-    "resolved_word_id": 2516,
-    "resolved_word": "sich beeilen"
+    "page": 111
   },
   {
     "id": 375,
@@ -3653,9 +3363,7 @@
     "relation_type": "antonym",
     "evidence": "原书p111 \"反义词\" 标注",
     "in_db": 1,
-    "page": 111,
-    "resolved_word_id": 2243,
-    "resolved_word": "beschleunigen"
+    "page": 111
   },
   {
     "id": 376,
@@ -3677,9 +3385,7 @@
     "relation_type": "synonym",
     "evidence": "原书p124 \"同义词\" 标注（销售义）",
     "in_db": 1,
-    "page": 124,
-    "resolved_word_id": 2151,
-    "resolved_word": "der Umsatz, ..e"
+    "page": 124
   },
   {
     "id": 378,
@@ -3690,9 +3396,7 @@
     "relation_type": "synonym",
     "evidence": "原书p126 \"同义词\" 标注",
     "in_db": 1,
-    "page": 126,
-    "resolved_word_id": 748,
-    "resolved_word": "unterschätzen"
+    "page": 126
   },
   {
     "id": 379,
@@ -3714,9 +3418,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p16 \"近义词\" 标注",
     "in_db": 1,
-    "page": 16,
-    "resolved_word_id": 386,
-    "resolved_word": "beherrschen"
+    "page": 16
   },
   {
     "id": 381,
@@ -3727,9 +3429,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p16 \"近义词\" 标注",
     "in_db": 1,
-    "page": 16,
-    "resolved_word_id": 2475,
-    "resolved_word": "erlernen"
+    "page": 16
   },
   {
     "id": 382,
@@ -3740,9 +3440,7 @@
     "relation_type": "near_synonym",
     "evidence": "原书p16 \"近义词\" 标注",
     "in_db": 1,
-    "page": 16,
-    "resolved_word_id": 2474,
-    "resolved_word": "erfassen"
+    "page": 16
   },
   {
     "id": 383,
@@ -3830,9 +3528,7 @@
     "relation_type": "antonym",
     "evidence": "page_083",
     "in_db": 1,
-    "page": 83,
-    "resolved_word_id": 2473,
-    "resolved_word": "erschweren"
+    "page": 83
   },
   {
     "id": 391,
@@ -3854,9 +3550,7 @@
     "relation_type": "near_synonym",
     "evidence": "page_098",
     "in_db": 1,
-    "page": 98,
-    "resolved_word_id": 699,
-    "resolved_word": "übersehen"
+    "page": 98
   },
   {
     "id": 393,
@@ -3867,9 +3561,7 @@
     "relation_type": "near_synonym",
     "evidence": "page_098",
     "in_db": 1,
-    "page": 98,
-    "resolved_word_id": 694,
-    "resolved_word": "übergehen"
+    "page": 98
   },
   {
     "id": 394,
@@ -3902,9 +3594,7 @@
     "relation_type": "synonym",
     "evidence": "page_093",
     "in_db": 1,
-    "page": 93,
-    "resolved_word_id": 183,
-    "resolved_word": "aus/reichen"
+    "page": 93
   },
   {
     "id": 397,
@@ -3915,9 +3605,7 @@
     "relation_type": "antonym",
     "evidence": "page_095",
     "in_db": 1,
-    "page": 95,
-    "resolved_word_id": 540,
-    "resolved_word": "misstrauen"
+    "page": 95
   },
   {
     "id": 398,
@@ -3928,9 +3616,7 @@
     "relation_type": "antonym",
     "evidence": "page_095",
     "in_db": 1,
-    "page": 95,
-    "resolved_word_id": 535,
-    "resolved_word": "gebrauchen"
+    "page": 95
   },
   {
     "id": 399,
@@ -3941,9 +3627,7 @@
     "relation_type": "antonym",
     "evidence": "page_095",
     "in_db": 1,
-    "page": 95,
-    "resolved_word_id": 537,
-    "resolved_word": "gefallen"
+    "page": 95
   },
   {
     "id": 400,
@@ -3954,9 +3638,7 @@
     "relation_type": "antonym",
     "evidence": "page_095",
     "in_db": 1,
-    "page": 95,
-    "resolved_word_id": 975,
-    "resolved_word": "behandeln"
+    "page": 95
   },
   {
     "id": 401,
@@ -3967,9 +3649,7 @@
     "relation_type": "synonym",
     "evidence": "page_096",
     "in_db": 1,
-    "page": 96,
-    "resolved_word_id": 2522,
-    "resolved_word": "sich irren"
+    "page": 96
   },
   {
     "id": 402,
@@ -3980,9 +3660,7 @@
     "relation_type": "synonym",
     "evidence": "page_044",
     "in_db": 1,
-    "page": 44,
-    "resolved_word_id": 2431,
-    "resolved_word": "verhindern"
+    "page": 44
   },
   {
     "id": 403,
@@ -3993,9 +3671,7 @@
     "relation_type": "synonym",
     "evidence": "page_044",
     "in_db": 1,
-    "page": 44,
-    "resolved_word_id": 2556,
-    "resolved_word": "blockieren"
+    "page": 44
   },
   {
     "id": 404,
@@ -4006,9 +3682,7 @@
     "relation_type": "synonym",
     "evidence": "page_044",
     "in_db": 1,
-    "page": 44,
-    "resolved_word_id": 2432,
-    "resolved_word": "versperren"
+    "page": 44
   },
   {
     "id": 405,
@@ -4030,9 +3704,7 @@
     "relation_type": "antonym",
     "evidence": "page_117",
     "in_db": 1,
-    "page": 117,
-    "resolved_word_id": 748,
-    "resolved_word": "unterschätzen"
+    "page": 117
   },
   {
     "id": 407,
@@ -4087,9 +3759,7 @@
     "relation_type": "synonym",
     "evidence": "page_104",
     "in_db": 1,
-    "page": 104,
-    "resolved_word_id": 2466,
-    "resolved_word": "sich benehmen"
+    "page": 104
   },
   {
     "id": 412,
@@ -4100,9 +3770,7 @@
     "relation_type": "synonym",
     "evidence": "page_066",
     "in_db": 1,
-    "page": 66,
-    "resolved_word_id": 2568,
-    "resolved_word": "teil/nehmen"
+    "page": 66
   },
   {
     "id": 413,
@@ -4113,9 +3781,7 @@
     "relation_type": "synonym",
     "evidence": "page_066",
     "in_db": 1,
-    "page": 66,
-    "resolved_word_id": 2567,
-    "resolved_word": "sich beteiligen"
+    "page": 66
   },
   {
     "id": 414,
@@ -4126,9 +3792,7 @@
     "relation_type": "synonym",
     "evidence": "page_144",
     "in_db": 1,
-    "page": 144,
-    "resolved_word_id": 2456,
-    "resolved_word": "sich beschweren"
+    "page": 144
   },
   {
     "id": 415,
@@ -4139,9 +3803,7 @@
     "relation_type": "synonym",
     "evidence": "page_020",
     "in_db": 1,
-    "page": 20,
-    "resolved_word_id": 2558,
-    "resolved_word": "sich informieren"
+    "page": 20
   },
   {
     "id": 416,
@@ -4152,9 +3814,7 @@
     "relation_type": "synonym",
     "evidence": "page_020",
     "in_db": 1,
-    "page": 20,
-    "resolved_word_id": 2578,
-    "resolved_word": "sich erkundigen"
+    "page": 20
   },
   {
     "id": 417,
@@ -4165,9 +3825,7 @@
     "relation_type": "synonym",
     "evidence": "page_206",
     "in_db": 1,
-    "page": 206,
-    "resolved_word_id": 2431,
-    "resolved_word": "verhindern"
+    "page": 206
   },
   {
     "id": 418,
@@ -4178,9 +3836,7 @@
     "relation_type": "synonym",
     "evidence": "page_206",
     "in_db": 1,
-    "page": 206,
-    "resolved_word_id": 2429,
-    "resolved_word": "misslingen"
+    "page": 206
   },
   {
     "id": 419,
@@ -4191,9 +3847,7 @@
     "relation_type": "near_synonym",
     "evidence": "page_060",
     "in_db": 1,
-    "page": 60,
-    "resolved_word_id": 308,
-    "resolved_word": "beeinflussen"
+    "page": 60
   },
   {
     "id": 420,
@@ -4204,9 +3858,7 @@
     "relation_type": "near_synonym",
     "evidence": "page_060",
     "in_db": 1,
-    "page": 60,
-    "resolved_word_id": 308,
-    "resolved_word": "beeinflussen"
+    "page": 60
   },
   {
     "id": 421,
@@ -4217,9 +3869,7 @@
     "relation_type": "near_synonym",
     "evidence": "page_090",
     "in_db": 1,
-    "page": 90,
-    "resolved_word_id": 514,
-    "resolved_word": "erleiden"
+    "page": 90
   },
   {
     "id": 422,
@@ -4241,9 +3891,7 @@
     "relation_type": "synonym",
     "evidence": "page_198",
     "in_db": 1,
-    "page": 198,
-    "resolved_word_id": 280,
-    "resolved_word": "zu/neigen"
+    "page": 198
   },
   {
     "id": 424,
@@ -4254,9 +3902,7 @@
     "relation_type": "near_synonym",
     "evidence": "page_204",
     "in_db": 1,
-    "page": 204,
-    "resolved_word_id": 2590,
-    "resolved_word": "folgern"
+    "page": 204
   },
   {
     "id": 425,
@@ -4267,9 +3913,7 @@
     "relation_type": "near_synonym",
     "evidence": "page_075",
     "in_db": 1,
-    "page": 75,
-    "resolved_word_id": 2406,
-    "resolved_word": "bezweifeln"
+    "page": 75
   },
   {
     "id": 426,
@@ -4280,9 +3924,7 @@
     "relation_type": "near_synonym",
     "evidence": "page_067",
     "in_db": 1,
-    "page": 67,
-    "resolved_word_id": 365,
-    "resolved_word": "bedenken"
+    "page": 67
   },
   {
     "id": 427,
@@ -4293,8 +3935,6 @@
     "relation_type": "near_synonym",
     "evidence": "page_204",
     "in_db": 1,
-    "page": 204,
-    "resolved_word_id": 2418,
-    "resolved_word": "verursachen"
+    "page": 204
   }
 ]
