@@ -1,0 +1,716 @@
+[
+  {
+    "id": 1,
+    "base_verb": "achten（基础动词未收录）",
+    "member_count": 2,
+    "group_key": "achten",
+    "has_context": 1
+  },
+  {
+    "id": 2,
+    "base_verb": "bauen（基础动词未收录）",
+    "member_count": 2,
+    "group_key": "bauen",
+    "has_context": 1
+  },
+  {
+    "id": 3,
+    "base_verb": "belasten",
+    "member_count": 2,
+    "group_key": "belasten",
+    "has_context": 1
+  },
+  {
+    "id": 4,
+    "base_verb": "bereiten（基础动词未收录）",
+    "member_count": 2,
+    "group_key": "bereiten",
+    "has_context": 1
+  },
+  {
+    "id": 5,
+    "base_verb": "bilden（基础动词未收录）",
+    "member_count": 3,
+    "group_key": "bilden",
+    "has_context": 1
+  },
+  {
+    "id": 6,
+    "base_verb": "binden（基础动词未收录）",
+    "member_count": 2,
+    "group_key": "binden",
+    "has_context": 1
+  },
+  {
+    "id": 7,
+    "base_verb": "bluten",
+    "member_count": 2,
+    "group_key": "bluten",
+    "has_context": 1
+  },
+  {
+    "id": 8,
+    "base_verb": "brauchen（基础动词未收录）",
+    "member_count": 3,
+    "group_key": "brauchen",
+    "has_context": 1
+  },
+  {
+    "id": 9,
+    "base_verb": "brechen（基础动词未收录）",
+    "member_count": 5,
+    "group_key": "brechen",
+    "has_context": 1
+  },
+  {
+    "id": 10,
+    "base_verb": "bringen（基础动词未收录）",
+    "member_count": 6,
+    "group_key": "bringen",
+    "has_context": 1
+  },
+  {
+    "id": 11,
+    "base_verb": "denken（基础动词未收录）",
+    "member_count": 2,
+    "group_key": "denken",
+    "has_context": 1
+  },
+  {
+    "id": 12,
+    "base_verb": "dürfen",
+    "member_count": 2,
+    "group_key": "dürfen",
+    "has_context": 1
+  },
+  {
+    "id": 13,
+    "base_verb": "fallen",
+    "member_count": 13,
+    "group_key": "fallen",
+    "has_context": 1
+  },
+  {
+    "id": 14,
+    "base_verb": "fangen",
+    "member_count": 3,
+    "group_key": "fangen",
+    "has_context": 0
+  },
+  {
+    "id": 15,
+    "base_verb": "fassen",
+    "member_count": 7,
+    "group_key": "fassen",
+    "has_context": 1
+  },
+  {
+    "id": 16,
+    "base_verb": "finden",
+    "member_count": 3,
+    "group_key": "finden",
+    "has_context": 1
+  },
+  {
+    "id": 17,
+    "base_verb": "fließen",
+    "member_count": 2,
+    "group_key": "fließen",
+    "has_context": 0
+  },
+  {
+    "id": 18,
+    "base_verb": "folgen",
+    "member_count": 4,
+    "group_key": "folgen",
+    "has_context": 1
+  },
+  {
+    "id": 19,
+    "base_verb": "fordern（基础动词未收录）",
+    "member_count": 3,
+    "group_key": "fordern",
+    "has_context": 1
+  },
+  {
+    "id": 20,
+    "base_verb": "führen（基础动词未收录）",
+    "member_count": 5,
+    "group_key": "führen",
+    "has_context": 1
+  },
+  {
+    "id": 21,
+    "base_verb": "füllen（基础动词未收录）",
+    "member_count": 2,
+    "group_key": "füllen",
+    "has_context": 1
+  },
+  {
+    "id": 22,
+    "base_verb": "geben",
+    "member_count": 9,
+    "group_key": "geben",
+    "has_context": 1
+  },
+  {
+    "id": 23,
+    "base_verb": "gehen",
+    "member_count": 11,
+    "group_key": "gehen",
+    "has_context": 1
+  },
+  {
+    "id": 24,
+    "base_verb": "gleichen（基础动词未收录）",
+    "member_count": 3,
+    "group_key": "gleichen",
+    "has_context": 1
+  },
+  {
+    "id": 25,
+    "base_verb": "gliedern（基础动词未收录）",
+    "member_count": 3,
+    "group_key": "gliedern",
+    "has_context": 1
+  },
+  {
+    "id": 26,
+    "base_verb": "greifen",
+    "member_count": 7,
+    "group_key": "greifen",
+    "has_context": 1
+  },
+  {
+    "id": 27,
+    "base_verb": "halten（基础动词未收录）",
+    "member_count": 10,
+    "group_key": "halten",
+    "has_context": 1
+  },
+  {
+    "id": 28,
+    "base_verb": "handeln（基础动词未收录）",
+    "member_count": 4,
+    "group_key": "handeln",
+    "has_context": 1
+  },
+  {
+    "id": 29,
+    "base_verb": "harren",
+    "member_count": 2,
+    "group_key": "harren",
+    "has_context": 1
+  },
+  {
+    "id": 30,
+    "base_verb": "heben",
+    "member_count": 4,
+    "group_key": "heben",
+    "has_context": 1
+  },
+  {
+    "id": 31,
+    "base_verb": "herrschen",
+    "member_count": 2,
+    "group_key": "herrschen",
+    "has_context": 1
+  },
+  {
+    "id": 32,
+    "base_verb": "holen（基础动词未收录）",
+    "member_count": 2,
+    "group_key": "holen",
+    "has_context": 1
+  },
+  {
+    "id": 33,
+    "base_verb": "kehren（基础动词未收录）",
+    "member_count": 2,
+    "group_key": "kehren",
+    "has_context": 1
+  },
+  {
+    "id": 34,
+    "base_verb": "kennen",
+    "member_count": 2,
+    "group_key": "kennen",
+    "has_context": 1
+  },
+  {
+    "id": 35,
+    "base_verb": "kommen",
+    "member_count": 8,
+    "group_key": "kommen",
+    "has_context": 1
+  },
+  {
+    "id": 36,
+    "base_verb": "kündigen",
+    "member_count": 2,
+    "group_key": "kündigen",
+    "has_context": 1
+  },
+  {
+    "id": 37,
+    "base_verb": "langen（基础动词未收录）",
+    "member_count": 2,
+    "group_key": "langen",
+    "has_context": 1
+  },
+  {
+    "id": 38,
+    "base_verb": "lassen（基础动词未收录）",
+    "member_count": 7,
+    "group_key": "lassen",
+    "has_context": 1
+  },
+  {
+    "id": 39,
+    "base_verb": "laufen",
+    "member_count": 5,
+    "group_key": "laufen",
+    "has_context": 1
+  },
+  {
+    "id": 40,
+    "base_verb": "leben",
+    "member_count": 3,
+    "group_key": "leben",
+    "has_context": 1
+  },
+  {
+    "id": 41,
+    "base_verb": "legen",
+    "member_count": 10,
+    "group_key": "legen",
+    "has_context": 1
+  },
+  {
+    "id": 42,
+    "base_verb": "leiten（基础动词未收录）",
+    "member_count": 2,
+    "group_key": "leiten",
+    "has_context": 1
+  },
+  {
+    "id": 43,
+    "base_verb": "lernen（基础动词未收录）",
+    "member_count": 2,
+    "group_key": "lernen",
+    "has_context": 1
+  },
+  {
+    "id": 44,
+    "base_verb": "lingen（基础动词未收录）",
+    "member_count": 2,
+    "group_key": "lingen",
+    "has_context": 1
+  },
+  {
+    "id": 45,
+    "base_verb": "löschen",
+    "member_count": 2,
+    "group_key": "löschen",
+    "has_context": 1
+  },
+  {
+    "id": 46,
+    "base_verb": "lösen（基础动词未收录）",
+    "member_count": 2,
+    "group_key": "lösen",
+    "has_context": 1
+  },
+  {
+    "id": 47,
+    "base_verb": "nehmen",
+    "member_count": 14,
+    "group_key": "nehmen",
+    "has_context": 1
+  },
+  {
+    "id": 48,
+    "base_verb": "neiden",
+    "member_count": 2,
+    "group_key": "neiden",
+    "has_context": 1
+  },
+  {
+    "id": 49,
+    "base_verb": "ordnen（基础动词未收录）",
+    "member_count": 2,
+    "group_key": "ordnen",
+    "has_context": 1
+  },
+  {
+    "id": 50,
+    "base_verb": "passen（基础动词未收录）",
+    "member_count": 2,
+    "group_key": "passen",
+    "has_context": 1
+  },
+  {
+    "id": 51,
+    "base_verb": "raten",
+    "member_count": 4,
+    "group_key": "raten",
+    "has_context": 1
+  },
+  {
+    "id": 52,
+    "base_verb": "regen（基础动词未收录）",
+    "member_count": 3,
+    "group_key": "regen",
+    "has_context": 0
+  },
+  {
+    "id": 53,
+    "base_verb": "reichen（基础动词未收录）",
+    "member_count": 2,
+    "group_key": "reichen",
+    "has_context": 1
+  },
+  {
+    "id": 54,
+    "base_verb": "reisen",
+    "member_count": 3,
+    "group_key": "reisen",
+    "has_context": 0
+  },
+  {
+    "id": 55,
+    "base_verb": "richten（基础动词未收录）",
+    "member_count": 3,
+    "group_key": "richten",
+    "has_context": 1
+  },
+  {
+    "id": 56,
+    "base_verb": "rufen（基础动词未收录）",
+    "member_count": 4,
+    "group_key": "rufen",
+    "has_context": 1
+  },
+  {
+    "id": 57,
+    "base_verb": "sagen（基础动词未收录）",
+    "member_count": 5,
+    "group_key": "sagen",
+    "has_context": 1
+  },
+  {
+    "id": 58,
+    "base_verb": "schaffen（基础动词未收录）",
+    "member_count": 2,
+    "group_key": "schaffen",
+    "has_context": 1
+  },
+  {
+    "id": 59,
+    "base_verb": "schalten（基础动词未收录）",
+    "member_count": 4,
+    "group_key": "schalten",
+    "has_context": 1
+  },
+  {
+    "id": 60,
+    "base_verb": "scheiden（基础动词未收录）",
+    "member_count": 3,
+    "group_key": "scheiden",
+    "has_context": 1
+  },
+  {
+    "id": 61,
+    "base_verb": "scheinen（基础动词未收录）",
+    "member_count": 2,
+    "group_key": "scheinen",
+    "has_context": 1
+  },
+  {
+    "id": 62,
+    "base_verb": "schießen（基础动词未收录）",
+    "member_count": 3,
+    "group_key": "schießen",
+    "has_context": 0
+  },
+  {
+    "id": 63,
+    "base_verb": "schlagen（基础动词未收录）",
+    "member_count": 4,
+    "group_key": "schlagen",
+    "has_context": 1
+  },
+  {
+    "id": 64,
+    "base_verb": "schließen",
+    "member_count": 8,
+    "group_key": "schließen",
+    "has_context": 1
+  },
+  {
+    "id": 65,
+    "base_verb": "schlüsseln（基础动词未收录）",
+    "member_count": 2,
+    "group_key": "schlüsseln",
+    "has_context": 0
+  },
+  {
+    "id": 66,
+    "base_verb": "schneiden（基础动词未收录）",
+    "member_count": 2,
+    "group_key": "schneiden",
+    "has_context": 1
+  },
+  {
+    "id": 67,
+    "base_verb": "schreiben（基础动词未收录）",
+    "member_count": 6,
+    "group_key": "schreiben",
+    "has_context": 1
+  },
+  {
+    "id": 68,
+    "base_verb": "schädigen",
+    "member_count": 2,
+    "group_key": "schädigen",
+    "has_context": 1
+  },
+  {
+    "id": 69,
+    "base_verb": "schätzen（基础动词未收录）",
+    "member_count": 3,
+    "group_key": "schätzen",
+    "has_context": 1
+  },
+  {
+    "id": 70,
+    "base_verb": "sehen",
+    "member_count": 3,
+    "group_key": "sehen",
+    "has_context": 1
+  },
+  {
+    "id": 71,
+    "base_verb": "setzen",
+    "member_count": 8,
+    "group_key": "setzen",
+    "has_context": 1
+  },
+  {
+    "id": 72,
+    "base_verb": "seuchen（基础动词未收录）",
+    "member_count": 2,
+    "group_key": "seuchen",
+    "has_context": 1
+  },
+  {
+    "id": 73,
+    "base_verb": "siedeln（基础动词未收录）",
+    "member_count": 2,
+    "group_key": "siedeln",
+    "has_context": 1
+  },
+  {
+    "id": 74,
+    "base_verb": "sorgen（基础动词未收录）",
+    "member_count": 2,
+    "group_key": "sorgen",
+    "has_context": 1
+  },
+  {
+    "id": 75,
+    "base_verb": "spannen",
+    "member_count": 2,
+    "group_key": "spannen",
+    "has_context": 1
+  },
+  {
+    "id": 76,
+    "base_verb": "sparen",
+    "member_count": 2,
+    "group_key": "sparen",
+    "has_context": 0
+  },
+  {
+    "id": 77,
+    "base_verb": "sprechen（基础动词未收录）",
+    "member_count": 5,
+    "group_key": "sprechen",
+    "has_context": 1
+  },
+  {
+    "id": 78,
+    "base_verb": "statten（基础动词未收录）",
+    "member_count": 2,
+    "group_key": "statten",
+    "has_context": 0
+  },
+  {
+    "id": 79,
+    "base_verb": "stechen",
+    "member_count": 2,
+    "group_key": "stechen",
+    "has_context": 0
+  },
+  {
+    "id": 80,
+    "base_verb": "stehen",
+    "member_count": 9,
+    "group_key": "stehen",
+    "has_context": 1
+  },
+  {
+    "id": 81,
+    "base_verb": "stellen（基础动词未收录）",
+    "member_count": 8,
+    "group_key": "stellen",
+    "has_context": 1
+  },
+  {
+    "id": 82,
+    "base_verb": "stimmen（基础动词未收录）",
+    "member_count": 3,
+    "group_key": "stimmen",
+    "has_context": 0
+  },
+  {
+    "id": 83,
+    "base_verb": "strahlen",
+    "member_count": 3,
+    "group_key": "strahlen",
+    "has_context": 1
+  },
+  {
+    "id": 84,
+    "base_verb": "streiten",
+    "member_count": 2,
+    "group_key": "streiten",
+    "has_context": 1
+  },
+  {
+    "id": 85,
+    "base_verb": "suchen（基础动词未收录）",
+    "member_count": 2,
+    "group_key": "suchen",
+    "has_context": 0
+  },
+  {
+    "id": 86,
+    "base_verb": "tragen（基础动词未收录）",
+    "member_count": 6,
+    "group_key": "tragen",
+    "has_context": 1
+  },
+  {
+    "id": 87,
+    "base_verb": "trauen（基础动词未收录）",
+    "member_count": 2,
+    "group_key": "trauen",
+    "has_context": 0
+  },
+  {
+    "id": 88,
+    "base_verb": "treffen",
+    "member_count": 3,
+    "group_key": "treffen",
+    "has_context": 1
+  },
+  {
+    "id": 89,
+    "base_verb": "treiben",
+    "member_count": 7,
+    "group_key": "treiben",
+    "has_context": 1
+  },
+  {
+    "id": 90,
+    "base_verb": "täuschen",
+    "member_count": 2,
+    "group_key": "täuschen",
+    "has_context": 0
+  },
+  {
+    "id": 91,
+    "base_verb": "wachen（基础动词未收录）",
+    "member_count": 2,
+    "group_key": "wachen",
+    "has_context": 1
+  },
+  {
+    "id": 92,
+    "base_verb": "wandern",
+    "member_count": 4,
+    "group_key": "wandern",
+    "has_context": 0
+  },
+  {
+    "id": 93,
+    "base_verb": "weichen",
+    "member_count": 3,
+    "group_key": "weichen",
+    "has_context": 1
+  },
+  {
+    "id": 94,
+    "base_verb": "weisen（基础动词未收录）",
+    "member_count": 4,
+    "group_key": "weisen",
+    "has_context": 0
+  },
+  {
+    "id": 95,
+    "base_verb": "wenden（基础动词未收录）",
+    "member_count": 4,
+    "group_key": "wenden",
+    "has_context": 0
+  },
+  {
+    "id": 96,
+    "base_verb": "werben（基础动词未收录）",
+    "member_count": 2,
+    "group_key": "werben",
+    "has_context": 1
+  },
+  {
+    "id": 97,
+    "base_verb": "werfen（基础动词未收录）",
+    "member_count": 3,
+    "group_key": "werfen",
+    "has_context": 1
+  },
+  {
+    "id": 98,
+    "base_verb": "wiegen（基础动词未收录）",
+    "member_count": 3,
+    "group_key": "wiegen",
+    "has_context": 1
+  },
+  {
+    "id": 99,
+    "base_verb": "zahlen（基础动词未收录）",
+    "member_count": 2,
+    "group_key": "zahlen",
+    "has_context": 0
+  },
+  {
+    "id": 100,
+    "base_verb": "zeugen（基础动词未收录）",
+    "member_count": 2,
+    "group_key": "zeugen",
+    "has_context": 1
+  },
+  {
+    "id": 101,
+    "base_verb": "ziehen",
+    "member_count": 8,
+    "group_key": "ziehen",
+    "has_context": 1
+  },
+  {
+    "id": 102,
+    "base_verb": "zweifeln（基础动词未收录）",
+    "member_count": 2,
+    "group_key": "zweifeln",
+    "has_context": 0
+  }
+]

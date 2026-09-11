@@ -1,0 +1,949 @@
+[
+  {
+    "group_id": 1,
+    "root": "achten",
+    "parts": [
+      "P4",
+      "P7"
+    ],
+    "member_count": 2
+  },
+  {
+    "group_id": 2,
+    "root": "bauen",
+    "parts": [
+      "P1",
+      "P2"
+    ],
+    "member_count": 2
+  },
+  {
+    "group_id": 3,
+    "root": "belasten",
+    "parts": [
+      "P4",
+      "P7"
+    ],
+    "member_count": 2
+  },
+  {
+    "group_id": 4,
+    "root": "bereiten",
+    "parts": [
+      "P2",
+      "P3"
+    ],
+    "member_count": 2
+  },
+  {
+    "group_id": 5,
+    "root": "bilden",
+    "parts": [
+      "P2",
+      "P3",
+      "P8"
+    ],
+    "member_count": 3
+  },
+  {
+    "group_id": 6,
+    "root": "binden",
+    "parts": [
+      "P6",
+      "P8"
+    ],
+    "member_count": 2
+  },
+  {
+    "group_id": 7,
+    "root": "bluten",
+    "parts": [
+      "P7",
+      "P8"
+    ],
+    "member_count": 2
+  },
+  {
+    "group_id": 8,
+    "root": "brauchen",
+    "parts": [
+      "P6",
+      "P7"
+    ],
+    "member_count": 3
+  },
+  {
+    "group_id": 9,
+    "root": "brechen",
+    "parts": [
+      "P1",
+      "P2",
+      "P7",
+      "P8"
+    ],
+    "member_count": 5
+  },
+  {
+    "group_id": 10,
+    "root": "bringen",
+    "parts": [
+      "P1",
+      "P10",
+      "P11",
+      "P7",
+      "P8"
+    ],
+    "member_count": 6
+  },
+  {
+    "group_id": 11,
+    "root": "denken",
+    "parts": [
+      "P4",
+      "P8"
+    ],
+    "member_count": 2
+  },
+  {
+    "group_id": 13,
+    "root": "fallen",
+    "parts": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7"
+    ],
+    "member_count": 13
+  },
+  {
+    "group_id": 14,
+    "root": "fangen",
+    "parts": [
+      "P8",
+      "P9"
+    ],
+    "member_count": 3
+  },
+  {
+    "group_id": 15,
+    "root": "fassen",
+    "parts": [
+      "P1",
+      "P2",
+      "P5",
+      "P6",
+      "P7",
+      "P8"
+    ],
+    "member_count": 7
+  },
+  {
+    "group_id": 16,
+    "root": "finden",
+    "parts": [
+      "P5",
+      "P6",
+      "P8"
+    ],
+    "member_count": 3
+  },
+  {
+    "group_id": 17,
+    "root": "fließen",
+    "parts": [
+      "P10",
+      "P7"
+    ],
+    "member_count": 2
+  },
+  {
+    "group_id": 18,
+    "root": "folgen",
+    "parts": [
+      "P5",
+      "P6"
+    ],
+    "member_count": 4
+  },
+  {
+    "group_id": 19,
+    "root": "fordern",
+    "parts": [
+      "P2",
+      "P7",
+      "P8"
+    ],
+    "member_count": 3
+  },
+  {
+    "group_id": 20,
+    "root": "führen",
+    "parts": [
+      "P11",
+      "P2",
+      "P3",
+      "P4",
+      "P7"
+    ],
+    "member_count": 5
+  },
+  {
+    "group_id": 21,
+    "root": "füllen",
+    "parts": [
+      "P3",
+      "P6"
+    ],
+    "member_count": 2
+  },
+  {
+    "group_id": 22,
+    "root": "geben",
+    "parts": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P8"
+    ],
+    "member_count": 9
+  },
+  {
+    "group_id": 23,
+    "root": "gehen",
+    "parts": [
+      "P1",
+      "P3",
+      "P4",
+      "P5",
+      "P7",
+      "P8"
+    ],
+    "member_count": 11
+  },
+  {
+    "group_id": 24,
+    "root": "gleichen",
+    "parts": [
+      "P2",
+      "P3",
+      "P6"
+    ],
+    "member_count": 3
+  },
+  {
+    "group_id": 25,
+    "root": "gliedern",
+    "parts": [
+      "P10",
+      "P2",
+      "P7"
+    ],
+    "member_count": 3
+  },
+  {
+    "group_id": 26,
+    "root": "greifen",
+    "parts": [
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7"
+    ],
+    "member_count": 7
+  },
+  {
+    "group_id": 27,
+    "root": "halten",
+    "parts": [
+      "P1",
+      "P10",
+      "P3",
+      "P5",
+      "P6",
+      "P7",
+      "P8"
+    ],
+    "member_count": 10
+  },
+  {
+    "group_id": 28,
+    "root": "handeln",
+    "parts": [
+      "P3",
+      "P6",
+      "P7"
+    ],
+    "member_count": 4
+  },
+  {
+    "group_id": 30,
+    "root": "heben",
+    "parts": [
+      "P10",
+      "P5",
+      "P6"
+    ],
+    "member_count": 4
+  },
+  {
+    "group_id": 32,
+    "root": "holen",
+    "parts": [
+      "P1",
+      "P7"
+    ],
+    "member_count": 2
+  },
+  {
+    "group_id": 33,
+    "root": "kehren",
+    "parts": [
+      "P1",
+      "P8"
+    ],
+    "member_count": 2
+  },
+  {
+    "group_id": 35,
+    "root": "kommen",
+    "parts": [
+      "P1",
+      "P2",
+      "P3",
+      "P5",
+      "P8"
+    ],
+    "member_count": 8
+  },
+  {
+    "group_id": 36,
+    "root": "kündigen",
+    "parts": [
+      "P2",
+      "P9"
+    ],
+    "member_count": 2
+  },
+  {
+    "group_id": 37,
+    "root": "langen",
+    "parts": [
+      "P6",
+      "P7"
+    ],
+    "member_count": 2
+  },
+  {
+    "group_id": 38,
+    "root": "lassen",
+    "parts": [
+      "P11",
+      "P4",
+      "P5",
+      "P7",
+      "P8"
+    ],
+    "member_count": 7
+  },
+  {
+    "group_id": 39,
+    "root": "laufen",
+    "parts": [
+      "P10",
+      "P5",
+      "P7"
+    ],
+    "member_count": 5
+  },
+  {
+    "group_id": 40,
+    "root": "leben",
+    "parts": [
+      "P3",
+      "P6",
+      "P7"
+    ],
+    "member_count": 3
+  },
+  {
+    "group_id": 41,
+    "root": "legen",
+    "parts": [
+      "P1",
+      "P11",
+      "P2",
+      "P3",
+      "P5",
+      "P6",
+      "P8"
+    ],
+    "member_count": 10
+  },
+  {
+    "group_id": 42,
+    "root": "leiten",
+    "parts": [
+      "P10",
+      "P5"
+    ],
+    "member_count": 2
+  },
+  {
+    "group_id": 43,
+    "root": "lernen",
+    "parts": [
+      "P6",
+      "P7"
+    ],
+    "member_count": 2
+  },
+  {
+    "group_id": 44,
+    "root": "lingen",
+    "parts": [
+      "P11",
+      "P6"
+    ],
+    "member_count": 2
+  },
+  {
+    "group_id": 45,
+    "root": "löschen",
+    "parts": [
+      "P6",
+      "P9"
+    ],
+    "member_count": 2
+  },
+  {
+    "group_id": 46,
+    "root": "lösen",
+    "parts": [
+      "P10",
+      "P3"
+    ],
+    "member_count": 2
+  },
+  {
+    "group_id": 47,
+    "root": "nehmen",
+    "parts": [
+      "P1",
+      "P11",
+      "P2",
+      "P3",
+      "P5",
+      "P7",
+      "P8"
+    ],
+    "member_count": 14
+  },
+  {
+    "group_id": 49,
+    "root": "ordnen",
+    "parts": [
+      "P4",
+      "P8"
+    ],
+    "member_count": 2
+  },
+  {
+    "group_id": 50,
+    "root": "passen",
+    "parts": [
+      "P2",
+      "P7"
+    ],
+    "member_count": 2
+  },
+  {
+    "group_id": 51,
+    "root": "raten",
+    "parts": [
+      "P11",
+      "P5",
+      "P7"
+    ],
+    "member_count": 4
+  },
+  {
+    "group_id": 52,
+    "root": "regen",
+    "parts": [
+      "P2",
+      "P6"
+    ],
+    "member_count": 3
+  },
+  {
+    "group_id": 53,
+    "root": "reichen",
+    "parts": [
+      "P3",
+      "P6"
+    ],
+    "member_count": 2
+  },
+  {
+    "group_id": 54,
+    "root": "reisen",
+    "parts": [
+      "P10",
+      "P2"
+    ],
+    "member_count": 3
+  },
+  {
+    "group_id": 55,
+    "root": "richten",
+    "parts": [
+      "P3",
+      "P6",
+      "P8"
+    ],
+    "member_count": 3
+  },
+  {
+    "group_id": 56,
+    "root": "rufen",
+    "parts": [
+      "P1",
+      "P11",
+      "P2",
+      "P8"
+    ],
+    "member_count": 4
+  },
+  {
+    "group_id": 57,
+    "root": "sagen",
+    "parts": [
+      "P1",
+      "P10",
+      "P4",
+      "P7",
+      "P8"
+    ],
+    "member_count": 5
+  },
+  {
+    "group_id": 58,
+    "root": "schaffen",
+    "parts": [
+      "P1",
+      "P2"
+    ],
+    "member_count": 2
+  },
+  {
+    "group_id": 59,
+    "root": "schalten",
+    "parts": [
+      "P1",
+      "P10",
+      "P8"
+    ],
+    "member_count": 4
+  },
+  {
+    "group_id": 60,
+    "root": "scheiden",
+    "parts": [
+      "P3",
+      "P5",
+      "P8"
+    ],
+    "member_count": 3
+  },
+  {
+    "group_id": 61,
+    "root": "scheinen",
+    "parts": [
+      "P6",
+      "P8"
+    ],
+    "member_count": 2
+  },
+  {
+    "group_id": 62,
+    "root": "schießen",
+    "parts": [
+      "P10",
+      "P4",
+      "P6"
+    ],
+    "member_count": 3
+  },
+  {
+    "group_id": 63,
+    "root": "schlagen",
+    "parts": [
+      "P1",
+      "P10",
+      "P11"
+    ],
+    "member_count": 4
+  },
+  {
+    "group_id": 64,
+    "root": "schließen",
+    "parts": [
+      "P1",
+      "P2",
+      "P3",
+      "P5",
+      "P6"
+    ],
+    "member_count": 8
+  },
+  {
+    "group_id": 65,
+    "root": "schlüsseln",
+    "parts": [
+      "P2",
+      "P5"
+    ],
+    "member_count": 2
+  },
+  {
+    "group_id": 66,
+    "root": "schneiden",
+    "parts": [
+      "P1",
+      "P7"
+    ],
+    "member_count": 2
+  },
+  {
+    "group_id": 67,
+    "root": "schreiben",
+    "parts": [
+      "P3",
+      "P4",
+      "P7",
+      "P8",
+      "P9"
+    ],
+    "member_count": 6
+  },
+  {
+    "group_id": 69,
+    "root": "schätzen",
+    "parts": [
+      "P3",
+      "P7",
+      "P8"
+    ],
+    "member_count": 3
+  },
+  {
+    "group_id": 70,
+    "root": "sehen",
+    "parts": [
+      "P3",
+      "P8"
+    ],
+    "member_count": 3
+  },
+  {
+    "group_id": 71,
+    "root": "setzen",
+    "parts": [
+      "P10",
+      "P3",
+      "P5",
+      "P6",
+      "P7",
+      "P8"
+    ],
+    "member_count": 8
+  },
+  {
+    "group_id": 72,
+    "root": "seuchen",
+    "parts": [
+      "P5",
+      "P6"
+    ],
+    "member_count": 2
+  },
+  {
+    "group_id": 73,
+    "root": "siedeln",
+    "parts": [
+      "P2",
+      "P5"
+    ],
+    "member_count": 2
+  },
+  {
+    "group_id": 74,
+    "root": "sorgen",
+    "parts": [
+      "P5",
+      "P6"
+    ],
+    "member_count": 2
+  },
+  {
+    "group_id": 77,
+    "root": "sprechen",
+    "parts": [
+      "P10",
+      "P2",
+      "P5",
+      "P7",
+      "P8"
+    ],
+    "member_count": 5
+  },
+  {
+    "group_id": 78,
+    "root": "statten",
+    "parts": [
+      "P10",
+      "P3"
+    ],
+    "member_count": 2
+  },
+  {
+    "group_id": 79,
+    "root": "stechen",
+    "parts": [
+      "P10",
+      "P6"
+    ],
+    "member_count": 2
+  },
+  {
+    "group_id": 80,
+    "root": "stehen",
+    "parts": [
+      "P10",
+      "P11",
+      "P4",
+      "P5",
+      "P6",
+      "P8"
+    ],
+    "member_count": 9
+  },
+  {
+    "group_id": 81,
+    "root": "stellen",
+    "parts": [
+      "P1",
+      "P10",
+      "P2",
+      "P3",
+      "P4",
+      "P6",
+      "P8",
+      "P9"
+    ],
+    "member_count": 8
+  },
+  {
+    "group_id": 82,
+    "root": "stimmen",
+    "parts": [
+      "P1",
+      "P4",
+      "P7"
+    ],
+    "member_count": 3
+  },
+  {
+    "group_id": 83,
+    "root": "strahlen",
+    "parts": [
+      "P3",
+      "P8"
+    ],
+    "member_count": 3
+  },
+  {
+    "group_id": 84,
+    "root": "streiten",
+    "parts": [
+      "P4",
+      "P9"
+    ],
+    "member_count": 2
+  },
+  {
+    "group_id": 85,
+    "root": "suchen",
+    "parts": [
+      "P7",
+      "P8"
+    ],
+    "member_count": 2
+  },
+  {
+    "group_id": 86,
+    "root": "tragen",
+    "parts": [
+      "P1",
+      "P10",
+      "P2",
+      "P3",
+      "P4",
+      "P7"
+    ],
+    "member_count": 6
+  },
+  {
+    "group_id": 88,
+    "root": "treffen",
+    "parts": [
+      "P3",
+      "P5"
+    ],
+    "member_count": 3
+  },
+  {
+    "group_id": 89,
+    "root": "treiben",
+    "parts": [
+      "P1",
+      "P11",
+      "P2",
+      "P5",
+      "P7"
+    ],
+    "member_count": 7
+  },
+  {
+    "group_id": 90,
+    "root": "täuschen",
+    "parts": [
+      "P5",
+      "P9"
+    ],
+    "member_count": 2
+  },
+  {
+    "group_id": 91,
+    "root": "wachen",
+    "parts": [
+      "P2",
+      "P8"
+    ],
+    "member_count": 2
+  },
+  {
+    "group_id": 92,
+    "root": "wandern",
+    "parts": [
+      "P10",
+      "P3"
+    ],
+    "member_count": 4
+  },
+  {
+    "group_id": 93,
+    "root": "weichen",
+    "parts": [
+      "P1",
+      "P5"
+    ],
+    "member_count": 3
+  },
+  {
+    "group_id": 94,
+    "root": "weisen",
+    "parts": [
+      "P1",
+      "P3",
+      "P7"
+    ],
+    "member_count": 4
+  },
+  {
+    "group_id": 95,
+    "root": "wenden",
+    "parts": [
+      "P10",
+      "P11",
+      "P2",
+      "P7"
+    ],
+    "member_count": 4
+  },
+  {
+    "group_id": 96,
+    "root": "werben",
+    "parts": [
+      "P2",
+      "P6"
+    ],
+    "member_count": 2
+  },
+  {
+    "group_id": 97,
+    "root": "werfen",
+    "parts": [
+      "P4",
+      "P5",
+      "P8"
+    ],
+    "member_count": 3
+  },
+  {
+    "group_id": 98,
+    "root": "wiegen",
+    "parts": [
+      "P2",
+      "P3",
+      "P8"
+    ],
+    "member_count": 3
+  },
+  {
+    "group_id": 99,
+    "root": "zahlen",
+    "parts": [
+      "P10",
+      "P2"
+    ],
+    "member_count": 2
+  },
+  {
+    "group_id": 100,
+    "root": "zeugen",
+    "parts": [
+      "P6",
+      "P8"
+    ],
+    "member_count": 2
+  },
+  {
+    "group_id": 101,
+    "root": "ziehen",
+    "parts": [
+      "P1",
+      "P4",
+      "P5",
+      "P6",
+      "P8"
+    ],
+    "member_count": 8
+  },
+  {
+    "group_id": 102,
+    "root": "zweifeln",
+    "parts": [
+      "P5",
+      "P7"
+    ],
+    "member_count": 2
+  }
+]
