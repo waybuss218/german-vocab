@@ -38,9 +38,7 @@ function migrateState(s){
  s.unknown=s.unknown.map(u=>({...u,id:u.id||crypto.randomUUID()}));
  return s;
 }
-function save(){
-  localStorage.setItem(ACTIVE_STORE,JSON.stringify(state));
-}
+function save(){localStorage.setItem(ACTIVE_STORE,JSON.stringify(state))}
 function key(stage,m){return `${stage}:${m}`}
 function entriesFor(stage,m){return (DB.entries||[]).filter(e=>e.source?.stage?.includes(stage)&&eligible(e,m))}
 function eligible(e,m){
